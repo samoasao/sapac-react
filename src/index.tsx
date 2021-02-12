@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const num:number = 5;
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery';
+import 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './styles/main.css'
+
+import App from './components/App';
+
 ReactDOM.render(
     <React.StrictMode>
-        <h1>Hello there {num}</h1>
+        <Router>
+            <App />
+        </Router>
     </React.StrictMode>,
     document.getElementById('root')
 )
