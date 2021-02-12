@@ -95,60 +95,6 @@ const Navbar = () => {
             </ul>
 
         </nav>
-        // <nav class="navbar navbar-expand-lg navbar-light bg-light pb-0 border-bottom" id="sapac-nav">
-        //     <a class="navbar-brand" href="index.html">
-        //         <img src="../../assets/images/SAPAClogowordmark.png" class="img-fluid" style="height:100px"
-        //             alt="Southern Arizona Performing Arts Company" />
-        //     </a>
-        //     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        //         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        //         <span class="navbar-toggler-icon"></span>
-        //     </button>
-
-        //     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        //         <ul class="navbar-nav ml-auto border-bottom-0" id="navList">
-        //             <li class="nav-item ">
-        //                 <a class="nav-link ${activePage === 'home' ? 'active' : '' }" href="#/home" id="home-nav">Home
-        //     <span class="sr-only">(current)</span>
-        //                 </a>
-        //             </li>
-        //             <li class="nav-item dropdown">
-        //                 <a class="nav-link ${activePage === 'shows' ? 'active' : '' } dropdown-toggle" href="#" id="shows-nav"
-        //                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        //                     Shows
-        //   </a>
-        //                 <div class="dropdown-menu" aria-labelledby="shows-nav">
-        //                     <a class="dropdown-item show_link" href="#/home" name="2021">2020-2021</a>
-        //                     <a class="dropdown-item show_link" href="#/past-shows" name="past_shows">Past Shows</a>
-        //                     <div class="dropdown-divider"></div>
-        //                     <a class="dropdown-item" href="#/tickets">Tickets</a>
-        //                     <a class="dropdown-item" href="#/auditions">Auditions</a>
-        //                 </div>
-        //             </li>
-        //             <li class="nav-item dropdown">
-        //                 <a class="nav-link ${activePage === 'about' ? 'active' : '' } dropdown-toggle" href="#" id="about-nav"
-        //                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        //                     About Us
-        //   </a>
-        //                 <div class="dropdown-menu" aria-labelledby="about-nav">
-        //                     <a class="dropdown-item" href="#/about">Our Founders</a>
-        //                     <a class="dropdown-item" href="#/board">Board Of Directors</a>
-        //                     <a class="dropdown-item" href="#/contact">Contact Us</a>
-        //                 </div>
-        //             </li>
-        //             <li class="nav-item dropdown">
-        //                 <a class="nav-link dropdown-toggle ${activePage === 'support' ? 'active' : '' }" href="#" id="joinus-nav" role="button" data-toggle="dropdown" aria-haspopup="true"
-        //                     aria-expanded="false">
-        //                     Support
-        //   </a>
-        //                 <div class="dropdown-menu" aria-labelledby="joinus-nav">
-        //                     <a class="dropdown-item" href="#/support">Individual</a>
-        //                     <a class="dropdown-item" href="#/support-corporate">Corporate</a>
-        //                 </div>
-        //             </li>
-        //         </ul>
-        //     </div>
-        // </nav>
     )
 }
 export default Navbar;

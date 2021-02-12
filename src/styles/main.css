@@ -26,10 +26,10 @@ h1, h2, h3, h4, .navbar-brand {
   padding-bottom: 10px;
 }
 
-/* .myCarouselSection{
+ .myCarouselSection{
   background: url(../images/bg/Cover_Photo.jpg);
   background-position-y: 50%;
-} */
+} 
 
 #carouselTitle{
   position: absolute;
@@ -53,9 +53,9 @@ h1, h2, h3, h4, .navbar-brand {
 }
 
 
-/* .event{
+.event{
   background: url(../images/bg/subtle_white_feathers.png);
-} */
+}
 
 .event-item{
   background-color: white;
@@ -87,9 +87,9 @@ span.nav-link{
   cursor: pointer;
 }
 
-/* .about{
+.about{
   background: url(../images/bg/subtle_white_feathers.png);
-} */
+}
 
  @media screen and (max-width: 540px){
   #carouselTitle{
