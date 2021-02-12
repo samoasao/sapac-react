@@ -1,9 +1,12 @@
+import { Route, Switch } from "react-router-dom"
+
+//Pages
 import Home from '../pages/Home'
 import Board from '../pages/Board'
 import PastShows from '../pages/PastShows'
-import { Route, Switch } from "react-router-dom"
 import Tickets from '../pages/Tickets'
 import Auditions from '../pages/Auditions'
+import Founders from '../pages/Founders'
 
 const MainContainer = () => {
     return (
@@ -20,6 +23,9 @@ const MainContainer = () => {
             </Route>
             <Route path="/auditions">
                 <Auditions />
+            </Route>
+            <Route path="/founders">
+                <Founders />
             </Route>
             <Route path="/board">
                 <Board />
