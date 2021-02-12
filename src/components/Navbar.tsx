@@ -14,8 +14,8 @@ const links = [
         dropdowns: [
             [
                 {
-                    title: '2020-2021',
-                    url: '/#events'
+                    title: 'Forever Plaid',
+                    url: '/plaid'
                 },
                 {
                     title: 'Past Shows',

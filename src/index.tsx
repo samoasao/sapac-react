@@ -12,7 +12,7 @@ import App from './components/App';
 
 ReactDOM.render(
     <React.StrictMode>
-        <Router>
+        <Router basename="/sapac-react">
             <App />
         </Router>
     </React.StrictMode>,
