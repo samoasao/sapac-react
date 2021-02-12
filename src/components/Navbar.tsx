@@ -1,7 +1,7 @@
 import logo from '../images/SAPAClogowordmark.png';
 import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import React from 'react';
+import React, { Fragment } from 'react';
 import _ from 'lodash';
 
 const links = [
@@ -72,20 +72,42 @@ const brandStyle = {
     height: '100px'
 }
 
-const getNavLink: (link: { title: string, url: string }) => any = (link) => {
-    return (
-        <li className="nav-item">
+const getNavLink: (link: { title: string, url?: string, dropdowns?: { title: string, url: string }[][] },) => any = (link) => {
+    if (link.url) {
+        return (
             <NavLink to={link.url} className='nav-link' exact>
                 {link.title}
             </NavLink>
-        </li>
-    )
+        )
+    }
+    else if (link.dropdowns) {
+        const idName = _.camelCase(link.title) + '-nav';
+        return (
+            <Fragment>
+                <span className="nav-link dropdown-toggle" id={idName} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {link.title}
+                </span>
+                <div className="dropdown-menu" aria-labelledby={idName}>
+                    {
+                        link.dropdowns.map((dropdownSection, i) => {
+                            return (
+                                <React.Fragment key={i}>
+                                    {i > 0 ? <div className="dropdown-divider"></div> : null}
+                                    {dropdownSection.map((dropdown, j) => getDropDown(dropdown, j))}
+                                </React.Fragment>
+                            )
+                        })
+                    }
+                </div>
+            </Fragment>
+        )
+    }
 }
 
-const getDropDown: (link: { title: string, url: string }) => any = (link) => {
+const getDropDown: (link: { title: string, url: string }, i: number) => any = (link, i) => {
     if (link.url.includes('#')) {
         return (
-            <Link to={link.url} className='dropdown-item'>
+            <Link key={i} to={link.url} className='dropdown-item'>
                 {link.title}
             </Link>
         )
@@ -93,7 +115,7 @@ const getDropDown: (link: { title: string, url: string }) => any = (link) => {
     }
     else {
         return (
-            <NavLink to={link.url} className='dropdown-item' exact>
+            <NavLink key={i} to={link.url} className='dropdown-item' exact>
                 {link.title}
             </NavLink>
         )
@@ -109,34 +131,13 @@ const Navbar = () => {
 
             <ul className="navbar-nav ml-auto border-bottom-0" id="navList">
                 {
-                    links.map(link => {
+                    links.map((link, i) => {
+                        return (
+                            <li key={i} className={'nav-item' + link.dropdowns ? ' dropdown' : ''}>
+                                {getNavLink(link)}
+                            </li>
+                        )
 
-                        if (!link.dropdowns) {
-                            return getNavLink(link);
-                        }
-                        else {
-                            const idName = _.camelCase(link.title) + '-nav';
-                            return (
-                                <li className="nav-item dropdown">
-                                    <span className="nav-link dropdown-toggle" id={idName} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        {link.title}
-
-                                    </span>
-                                    <div className="dropdown-menu" aria-labelledby={idName}>
-                                        {
-                                            link.dropdowns.map((dropdownSection, i) => {
-                                                return (
-                                                    <React.Fragment>
-                                                        {i>0 ? <div className="dropdown-divider"></div> : ''}
-                                                        {dropdownSection.map(dropdown => getDropDown(dropdown))}
-                                                    </React.Fragment>
-                                                )
-                                            })
-                                        }
-                                    </div>
-                                </li>
-                            )
-                        }
                     })
                 }
 
