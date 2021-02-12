@@ -8,6 +8,8 @@ import Tickets from '../pages/Tickets'
 import Auditions from '../pages/Auditions'
 import Founders from '../pages/Founders'
 import Contact from "../pages/Contact"
+import SupportIndividual from "../pages/SupportIndividual"
+import SupportCorporate from "../pages/SupportCorporate"
 
 const MainContainer = () => {
     return (
@@ -33,6 +35,12 @@ const MainContainer = () => {
             </Route>
             <Route path="/contact">
                 <Contact />
+            </Route>
+            <Route path="/support-individual">
+                <SupportIndividual />
+            </Route>
+            <Route path="/support-corporate">
+                <SupportCorporate />
             </Route>
         </Switch>
     )
