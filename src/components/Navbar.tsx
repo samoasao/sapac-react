@@ -1,5 +1,7 @@
 import logo from '../images/SAPAClogowordmark.png';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+import React from 'react';
 import _ from 'lodash';
 
 const links = [
@@ -9,11 +11,32 @@ const links = [
     },
     {
         title: 'Shows',
-        url: '/shows'
+        dropdowns: [
+            [
+                {
+                    title: '2020-2021',
+                    url: '/#events'
+                },
+                {
+                    title: 'Past Shows',
+                    url: '/past-shows'
+                },
+            ],
+            [
+                {
+                    title: 'Tickets',
+                    url: '/tickets'
+                },
+                {
+                    title: 'Auditions',
+                    url: '/auditions'
+                },
+            ]
+        ]
     },
     {
         title: 'About Us',
-        dropdowns: [
+        dropdowns: [[
             {
                 title: 'Our Founders',
                 url: '/founders'
@@ -26,11 +49,21 @@ const links = [
                 title: 'Contact Us',
                 url: '/contact'
             },
-        ]
+        ]]
     },
     {
         title: 'Support',
-        url: '/support'
+        dropdowns: [[
+            {
+                title: 'Individual',
+                url: '/support-individual'
+            },
+            {
+                title: 'Corporate',
+                url: '/support-corporate'
+            },
+
+        ]]
     },
 
 ]
@@ -50,11 +83,21 @@ const getNavLink: (link: { title: string, url: string }) => any = (link) => {
 }
 
 const getDropDown: (link: { title: string, url: string }) => any = (link) => {
-    return (
-        <NavLink to={link.url} className='dropdown-item' exact>
-            {link.title}
-        </NavLink>
-    )
+    if (link.url.includes('#')) {
+        return (
+            <Link to={link.url} className='dropdown-item'>
+                {link.title}
+            </Link>
+        )
+
+    }
+    else {
+        return (
+            <NavLink to={link.url} className='dropdown-item' exact>
+                {link.title}
+            </NavLink>
+        )
+    }
 }
 
 const Navbar = () => {
@@ -72,7 +115,7 @@ const Navbar = () => {
                             return getNavLink(link);
                         }
                         else {
-                            const idName = _.camelCase(link.title)+'-nav';
+                            const idName = _.camelCase(link.title) + '-nav';
                             return (
                                 <li className="nav-item dropdown">
                                     <span className="nav-link dropdown-toggle" id={idName} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -81,8 +124,13 @@ const Navbar = () => {
                                     </span>
                                     <div className="dropdown-menu" aria-labelledby={idName}>
                                         {
-                                            link.dropdowns.map(dropdown => {
-                                                return getDropDown(dropdown);
+                                            link.dropdowns.map((dropdownSection, i) => {
+                                                return (
+                                                    <React.Fragment>
+                                                        {i>0 ? <div className="dropdown-divider"></div> : ''}
+                                                        {dropdownSection.map(dropdown => getDropDown(dropdown))}
+                                                    </React.Fragment>
+                                                )
                                             })
                                         }
                                     </div>

@@ -57,7 +57,7 @@ const Home = () => {
 
 
 
-            <section className="event py-5 p-3 px-md-5 " id="events">
+            <section className="event py-5 p-3 px-md-5 " id={"events"}>
                 <h1 className="text-left mb-5">Events</h1>
                 <div className="offset-lg-2 col-lg-8">
                     <div className="event-item row my-5 py-0" id="2021">
