@@ -47,7 +47,7 @@ const Home = () => {
                         <a className="btn btn-lg btn-dark" target="_blank" rel="noreferrer"
                             href="https://sapactucson.tix.com/Donation.aspx?OrgNum=6126">Make a Donation</a>
                             &nbsp;
-                        <a className="btn btn-lg btn-dark" href="#/tickets">Ticket Information</a>
+                        <a className="btn btn-lg btn-dark" href="/tickets">Ticket Information</a>
 
                     </div>
 
