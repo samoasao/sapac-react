@@ -1,5 +1,5 @@
 import Home from '../pages/Home'
-import Founders from '../pages/Founders'
+import Board from '../pages/Board'
 import PastShows from '../pages/PastShows'
 import { Route, Switch } from "react-router-dom"
 import Tickets from '../pages/Tickets'
@@ -21,8 +21,8 @@ const MainContainer = () => {
             <Route path="/auditions">
                 <Auditions />
             </Route>
-            <Route path="/founders">
-                <Founders />
+            <Route path="/board">
+                <Board />
             </Route>
         </Switch>
     )
