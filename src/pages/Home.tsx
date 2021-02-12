@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../images/SAPAClogo.png'
-import newWorld from '../images/NewWorld.png'
+import plaidLogo from '../images/PlaidLogo.png'
+import ShowCard from '../components/ShowCard';
+import TicketButton from '../components/TicketButton';
 
 const Home = () => {
 
@@ -12,7 +14,7 @@ const Home = () => {
                     <div className="offset-lg-2 col-lg-8">
                         <div className="myCarousel text-center">
                             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                                <div className="carousel-inner" style={{minHeight:'450px'}}>
+                                <div className="carousel-inner" style={{ minHeight: '450px' }}>
 
                                     <div className="carousel-item active">
                                     </div>
@@ -59,46 +61,45 @@ const Home = () => {
 
             <section className="event py-5 p-3 px-md-5 " id={"events"}>
                 <h1 className="text-left mb-5">Events</h1>
-                <div className="offset-lg-2 col-lg-8">
-                    <div className="event-item row my-5 py-0" id="2021">
-                        <div className="col-lg-12 py-2">
-                            <h2 className="mt-0 pt-2">2020-2021 Season</h2>
 
-                            <p>
-                                As we monitor the current COVID-19 pandemic,
-                                our 2020-2021 season is on hold until we here at SAPAC
-                                feel that producing live theater is safe for both our actors and audiences.
-                                Please check back for updates.
-                    </p>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
-
-                <div className="event-item row my-5 py-0" id="1776">
-
-                    <div className="col-md-5 ml-0 pl-0 py-0 my-0 ">
-                        <img className=" my-0 py-0 img-fluid" src={newWorld} alt="Songs For a New World" />
-                    </div>
-                    <div className="col-md-7 py-2">
-                        <h2 className="mt-0 pt-2">Songs For a New World</h2>
-                        <p className="byline">Music and Lyrics by Jason Robert Brown</p>
-                        <p className="location">Virtual Performance</p>
-                        <p className="performance-date">November 21, 2020</p>
-                        <p>100 minutes, 26 performers, 16 stories and 1 pandemic. Jason Robert Brown wrote the music
-                        and lyrics to these songs with a common theme...how one moment can change our lives forever.
-                        Join us as we have gathered performers from all over the country to convey a modern interpretation
-                        to these classNameic songs by relating them to our current pandemic. Proceeds from this performance will
-                        go to the Tucson Performing Arts fund which was developed to help local artists financially during
-                        this time.
-                </p>
-                        <a href="https://www.showtix4u.com/event-details/39623" rel="noreferrer" target="_blank" className="btn btn-dark btn-lg">Buy Tickets</a>
-                    </div>
-                </div>
-
+                <ShowCard
+                    image={plaidLogo}
+                    title='Forever Plaid'
+                    byline='Written by Stuart Ross'
+                    location={['Arts Express Theatre at The Park Place Mall', 'Community Performing Arts Center, Green Valley']}
+                    performanceDate={[
+                        'Arts Express - March 12th - 21st 2021 (Fridays and Saturdays at 7pm, Sundays at 2pm)',
+                        'CPAC - Saturday April 3rd at 3pm and 7pm'
+                    ]}
+                // ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
+                >
+                    <p><em>Forever Plaid</em> is one of the most popular and successful musicals in recent memory. This
+                    deliciously fun revue is chock-full of classic barbershop quartet harmonies and pitch-perfect
+                    melodies! Directed by Chach Snook who was on the National Tour of the show as well as Music
+                    Directed by Matthew Holter who is a founder of the doo-wop group The 4GENTS, this show
+                    will be sure to delight and move audiences!</p>
+                    <p>
+                        Once upon a time, there were four guys (Sparky, Smudge, Jinx and Frankie) who discovered that
+                        they shared a love for music and then got together to become their idols – The Four Freshman,
+                        The Hi-Lo&#39;s and The Crew Cuts. Rehearsing in the basement of Smudge&#39;s family&#39;s plumbing
+                        supply company, they became &quot;Forever Plaid&quot;. On the way to their first big gig, the &quot;Plaids&quot; are
+                        broadsided by a school bus and killed instantly. It is at the moment when their careers and lives
+                    end that the story of <em>Forever Plaid</em> begins....
+                    </p><p>
+                        Singing in close harmony, squabbling boyishly over the smallest intonations and executing their
+                        charmingly outlandish choreography with overzealous precision, the &quot;Plaids&quot; are a guaranteed
+                        smash, with a program of beloved songs and delightful patter that keeps audiences rolling in the
+                    aisles when they&#39;re not humming along to some of the great nostalgic pop hits of the 1950s.</p>
+                    <TicketButton
+                        ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
+                        text="Buy Tickets for Arts Express Theatre"
+                    />
+                    <div className="my-2"></div>
+                    <TicketButton
+                        ticketURL="https://performingartscenter.thundertix.com/events/183967"
+                        text="Buy Tickets For Community Performing Arts Center, Green Valley"
+                    />
+                </ShowCard>
 
 
             </section>
