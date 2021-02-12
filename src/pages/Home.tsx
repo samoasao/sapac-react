@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../images/SAPAClogo.png'
 import plaidLogo from '../images/PlaidLogo.png'
 import ShowCard from '../components/ShowCard';
@@ -49,7 +50,7 @@ const Home = () => {
                         <a className="btn btn-lg btn-dark" target="_blank" rel="noreferrer"
                             href="https://sapactucson.tix.com/Donation.aspx?OrgNum=6126">Make a Donation</a>
                             &nbsp;
-                        <a className="btn btn-lg btn-dark" href="/tickets">Ticket Information</a>
+                        <Link className="btn btn-lg btn-dark" to="/tickets">Ticket Information</Link>
 
                     </div>
 
