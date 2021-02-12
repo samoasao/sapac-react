@@ -58,7 +58,7 @@ const Founders = () => {
             <h2 className="text-center">Artistic Team</h2>
             <div className="row">
               <div className="col-sm-3 text-center">
-                <img className="img-fluid rounded team-img" src={dennis_img} />
+                <img className="img-fluid rounded team-img" src={dennis_img} alt="Dennis Tamblyn" />
               </div>
               <div className="col-sm-9">
                 <p className="text-justify">
@@ -185,7 +185,7 @@ const Founders = () => {
             </div>
             <div className="row">
               <div className="col-sm-3 text-center">
-                <img className="img-fluid rounded team-img" src={danniey_img} />
+                <img className="img-fluid rounded team-img" src={danniey_img} alt="Danielle Wright" />
               </div>
               <div className="col-sm-9">
                 <p className="text-justify">
@@ -261,7 +261,7 @@ const Founders = () => {
             <div className="row">
               
               <div className="col-sm-3  text-center">
-                <img className="img-fluid rounded team-img" src={kelli_img} />
+                <img className="img-fluid rounded team-img" src={kelli_img} alt="Kelli Workman" />
               </div>
               <div className="col-sm-9">
                 <p className="text-justify">

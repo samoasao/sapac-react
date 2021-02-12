@@ -7,6 +7,7 @@ import PastShows from '../pages/PastShows'
 import Tickets from '../pages/Tickets'
 import Auditions from '../pages/Auditions'
 import Founders from '../pages/Founders'
+import Contact from "../pages/Contact"
 
 const MainContainer = () => {
     return (
@@ -29,6 +30,9 @@ const MainContainer = () => {
             </Route>
             <Route path="/board">
                 <Board />
+            </Route>
+            <Route path="/contact">
+                <Contact />
             </Route>
         </Switch>
     )
