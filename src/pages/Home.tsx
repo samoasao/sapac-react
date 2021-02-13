@@ -75,7 +75,7 @@ const Home = () => {
                     ]}
                 // ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
                 >
-                    <a href='/plaid' className="btn btn-info btn-lg">Cast and Creative Team</a>
+                    <Link to='/plaid' className="btn btn-info btn-lg">Cast and Creative Team</Link>
                     <hr></hr>
                     <p><em>Forever Plaid</em> is one of the most popular and successful musicals in recent memory. This
                     deliciously fun revue is chock-full of classic barbershop quartet harmonies and pitch-perfect
