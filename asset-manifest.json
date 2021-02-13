@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sapac-react/static/css/main.09016ee9.chunk.css",
-    "main.js": "/sapac-react/static/js/main.c031bebd.chunk.js",
-    "main.js.map": "/sapac-react/static/js/main.c031bebd.chunk.js.map",
+    "main.css": "/sapac-react/static/css/main.2a77cf25.chunk.css",
+    "main.js": "/sapac-react/static/js/main.4664c00c.chunk.js",
+    "main.js.map": "/sapac-react/static/js/main.4664c00c.chunk.js.map",
     "runtime-main.js": "/sapac-react/static/js/runtime-main.b5faaab0.js",
     "runtime-main.js.map": "/sapac-react/static/js/runtime-main.b5faaab0.js.map",
     "static/css/2.150d169a.chunk.css": "/sapac-react/static/css/2.150d169a.chunk.css",
-    "static/js/2.d629850a.chunk.js": "/sapac-react/static/js/2.d629850a.chunk.js",
-    "static/js/2.d629850a.chunk.js.map": "/sapac-react/static/js/2.d629850a.chunk.js.map",
+    "static/js/2.19924b7f.chunk.js": "/sapac-react/static/js/2.19924b7f.chunk.js",
+    "static/js/2.19924b7f.chunk.js.map": "/sapac-react/static/js/2.19924b7f.chunk.js.map",
     "index.html": "/sapac-react/index.html",
     "static/css/2.150d169a.chunk.css.map": "/sapac-react/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.09016ee9.chunk.css.map": "/sapac-react/static/css/main.09016ee9.chunk.css.map",
-    "static/js/2.d629850a.chunk.js.LICENSE.txt": "/sapac-react/static/js/2.d629850a.chunk.js.LICENSE.txt",
+    "static/css/main.2a77cf25.chunk.css.map": "/sapac-react/static/css/main.2a77cf25.chunk.css.map",
+    "static/js/2.19924b7f.chunk.js.LICENSE.txt": "/sapac-react/static/js/2.19924b7f.chunk.js.LICENSE.txt",
     "static/media/1776.0b47c081.png": "/sapac-react/static/media/1776.0b47c081.png",
     "static/media/Amy.2019721f.jpg": "/sapac-react/static/media/Amy.2019721f.jpg",
     "static/media/main.css": "/sapac-react/static/media/subtle_white_feathers.1944426b.png",
@@ -25,17 +25,23 @@
     "static/media/SAPAClogo.96c08f9a.png": "/sapac-react/static/media/SAPAClogo.96c08f9a.png",
     "static/media/SAPAClogowordmark.8b552947.png": "/sapac-react/static/media/SAPAClogowordmark.8b552947.png",
     "static/media/Tori.46edcb6f.jpg": "/sapac-react/static/media/Tori.46edcb6f.jpg",
+    "static/media/ben_muckenthaler.d3e4ed13.jpeg": "/sapac-react/static/media/ben_muckenthaler.d3e4ed13.jpeg",
     "static/media/carrie_stusse.3e419588.jpg": "/sapac-react/static/media/carrie_stusse.3e419588.jpg",
+    "static/media/chach_snook.2d356a26.jpg": "/sapac-react/static/media/chach_snook.2d356a26.jpg",
     "static/media/danniey_wright.e8ecb9c2.jpg": "/sapac-react/static/media/danniey_wright.e8ecb9c2.jpg",
     "static/media/kelli_workman.80ba6233.jpg": "/sapac-react/static/media/kelli_workman.80ba6233.jpg",
+    "static/media/liam_boyd.00091224.jpg": "/sapac-react/static/media/liam_boyd.00091224.jpg",
     "static/media/maria.67d436dd.jpg": "/sapac-react/static/media/maria.67d436dd.jpg",
-    "static/media/title_of_show.d0387cbf.png": "/sapac-react/static/media/title_of_show.d0387cbf.png"
+    "static/media/matt_holter.b5b8d30e.jpg": "/sapac-react/static/media/matt_holter.b5b8d30e.jpg",
+    "static/media/title_of_show.d0387cbf.png": "/sapac-react/static/media/title_of_show.d0387cbf.png",
+    "static/media/topher_esguerra.9bf98907.jpg": "/sapac-react/static/media/topher_esguerra.9bf98907.jpg",
+    "static/media/xander_mason.bc53f07a.jpeg": "/sapac-react/static/media/xander_mason.bc53f07a.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.b5faaab0.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.d629850a.chunk.js",
-    "static/css/main.09016ee9.chunk.css",
-    "static/js/main.c031bebd.chunk.js"
+    "static/js/2.19924b7f.chunk.js",
+    "static/css/main.2a77cf25.chunk.css",
+    "static/js/main.4664c00c.chunk.js"
   ]
 }
