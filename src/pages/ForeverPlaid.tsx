@@ -23,9 +23,9 @@ const ForeverPlaid = () => {
 
                 </div>
                 <div className="row text-center">
-                    <div className="offset-sm-5 col-sm-2 ">
+                    <div className="offset-sm-4 col-sm-4 ">
 
-                    <TicketButton ticketURL="/tickets" text="Buy Tickets" />
+                    <TicketButton ticketURL="/tickets" text="Tickets and Venue Information" />
                     </div>
                 </div>
                 <div className="row text-center">
@@ -52,52 +52,6 @@ const ForeverPlaid = () => {
                         charmingly outlandish choreography with overzealous precision, the &quot;Plaids&quot; are a guaranteed
                         smash, with a program of beloved songs and delightful patter that keeps audiences rolling in the
                     aisles when they&#39;re not humming along to some of the great nostalgic pop hits of the 1950s.</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="offset-lg-1 col-lg-10 ">
-                        <h2>Cast</h2>
-                        <Bio
-                            name='Liam Boyd (SMUDGE) '
-                            image={liam_img}
-                        >
-                            is currently a musical theatre student at Arizona State University. Liam
-                            is making his SAPAC debut in <em>Forever Plaid</em>. Favorite roles include Ash in <em>Evil Dead: The
-                            Musical</em> (Catalina Foothills High School), Cornelius in <em>Hello Dolly</em> (Catalina Foothills High
-                            School), and Joseph in <em>Light Switch</em> (Arizona State University). Liam is currently ranked 13 th in
-                            the world in Irish Dancing. Liam is extremely grateful to be a part of this cast and gives many
-                            thanks to SAPAC as well as his mom, dad, and girlfriend for their never-ending support.
-                        </Bio>
-                        <Bio
-                            name='Topher Esguerra (JINX)'
-                            image={topher_img}
-                        >
-                            is a voice student at the UofA striving to share his art and make good
-                            music. You may have seen him in previous SAPAC productions in the role of Nanki-Poo in <em>The
-                            Hot Mikado</em> or as a part of <em>Songs for A New World</em>. He is also currently a music director for UA&#39;s
-                            premiere a cappella group CatCall. He would like to thank his mom for moral support at home,
-                            the men of CatCall for making music such a big part of his life, and for all of his closest friends
-                            that help him follow his dreams of performing.
-                        </Bio>
-                        <Bio
-                            name='Xander Mason (SPARKY)'
-                            image={xander_img}
-                        >
-                            is thrilled to be playing Sparky! He recently graduated from the
-                            University of Arizona with a BFA in Musical Theatre. Some of his favorite roles have been
-                            Johnny (<em>American Idiot)</em>, Bobby (<em>Cabaret</em>), and Ernst (<em>Spring Awakening</em>). “I’d like to thank my
-                            parents and sister for being my support system, my friends for encouragement and inspiration,
-                            and the audience for letting us share this story with you.”
-                        </Bio>
-                        <Bio
-                            name='Ben Muckenthaler (FRANKIE)'
-                            image={ben_img}
-                        >
-                            is proud to be in his first show with SAPAC. He is currently
-                            auditioning for BFA programs and is helping run The Blank Conversations Theatre Company in
-                            Las Cruces, NM. Recent shows include <em>Sweeney Todd</em> as Anthony, <em>The Last Five Years</em> as
-                            Jaimie, and <em>Tuck Everlasting</em> as Miles. Ben was also a finalist in the 2019 Monte Awards.
-                        </Bio>
                     </div>
                 </div>
                 <div className="row">
@@ -143,6 +97,52 @@ const ForeverPlaid = () => {
                             4GENTS, Tucson&#39;s old-school, doo-wop professors. Since 2015, Mr. Holter has served as the
                             Music Director for St. Thomas the Apostle Catholic Church in Tucson. Matthew and his wife,
                             Victoria, live happily in Tucson with their five children.
+                        </Bio>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="offset-lg-1 col-lg-10 ">
+                        <h2>Cast</h2>
+                        <Bio
+                            name='Liam Boyd (SMUDGE) '
+                            image={liam_img}
+                        >
+                            is currently a musical theatre student at Arizona State University. Liam
+                            is making his SAPAC debut in <em>Forever Plaid</em>. Favorite roles include Ash in <em>Evil Dead: The
+                            Musical</em> (Catalina Foothills High School), Cornelius in <em>Hello Dolly</em> (Catalina Foothills High
+                            School), and Joseph in <em>Light Switch</em> (Arizona State University). Liam is currently ranked 13 th in
+                            the world in Irish Dancing. Liam is extremely grateful to be a part of this cast and gives many
+                            thanks to SAPAC as well as his mom, dad, and girlfriend for their never-ending support.
+                        </Bio>
+                        <Bio
+                            name='Topher Esguerra (JINX)'
+                            image={topher_img}
+                        >
+                            is a voice student at the UofA striving to share his art and make good
+                            music. You may have seen him in previous SAPAC productions in the role of Nanki-Poo in <em>The
+                            Hot Mikado</em> or as a part of <em>Songs for A New World</em>. He is also currently a music director for UA&#39;s
+                            premiere a cappella group CatCall. He would like to thank his mom for moral support at home,
+                            the men of CatCall for making music such a big part of his life, and for all of his closest friends
+                            that help him follow his dreams of performing.
+                        </Bio>
+                        <Bio
+                            name='Xander Mason (SPARKY)'
+                            image={xander_img}
+                        >
+                            is thrilled to be playing Sparky! He recently graduated from the
+                            University of Arizona with a BFA in Musical Theatre. Some of his favorite roles have been
+                            Johnny (<em>American Idiot)</em>, Bobby (<em>Cabaret</em>), and Ernst (<em>Spring Awakening</em>). “I’d like to thank my
+                            parents and sister for being my support system, my friends for encouragement and inspiration,
+                            and the audience for letting us share this story with you.”
+                        </Bio>
+                        <Bio
+                            name='Ben Muckenthaler (FRANKIE)'
+                            image={ben_img}
+                        >
+                            is proud to be in his first show with SAPAC. He is currently
+                            auditioning for BFA programs and is helping run The Blank Conversations Theatre Company in
+                            Las Cruces, NM. Recent shows include <em>Sweeney Todd</em> as Anthony, <em>The Last Five Years</em> as
+                            Jaimie, and <em>Tuck Everlasting</em> as Miles. Ben was also a finalist in the 2019 Monte Awards.
                         </Bio>
                     </div>
                 </div>

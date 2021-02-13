@@ -75,6 +75,8 @@ const Home = () => {
                     ]}
                 // ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
                 >
+                    <a href='/plaid' className="btn btn-info btn-lg">Cast and Creative Team</a>
+                    <hr></hr>
                     <p><em>Forever Plaid</em> is one of the most popular and successful musicals in recent memory. This
                     deliciously fun revue is chock-full of classic barbershop quartet harmonies and pitch-perfect
                     melodies! Directed by Chach Snook who was on the National Tour of the show as well as Music
@@ -92,6 +94,8 @@ const Home = () => {
                         charmingly outlandish choreography with overzealous precision, the &quot;Plaids&quot; are a guaranteed
                         smash, with a program of beloved songs and delightful patter that keeps audiences rolling in the
                     aisles when they&#39;re not humming along to some of the great nostalgic pop hits of the 1950s.</p>
+                    
+                    
                     <TicketButton
                         ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
                         text="Buy Tickets for Arts Express Theatre"
