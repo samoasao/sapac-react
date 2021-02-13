@@ -9,11 +9,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './styles/main.css'
 
 import App from './components/App';
+import ScrollToTop from './components/ScrollToTop';
 
 ReactDOM.render(
     <React.StrictMode>
         <Router basename="/sapac-react">
+            <ScrollToTop>
             <App />
+            </ScrollToTop>
         </Router>
     </React.StrictMode>,
     document.getElementById('root')

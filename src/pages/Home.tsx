@@ -65,6 +65,7 @@ const Home = () => {
 
                 <ShowCard
                     image={plaidLogo}
+                    showInfoURL='/plaid'
                     title='Forever Plaid'
                     byline='Written by Stuart Ross'
                     location={['Arts Express Theatre at The Park Place Mall', 'Community Performing Arts Center, Green Valley']}

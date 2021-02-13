@@ -10,6 +10,7 @@ import Founders from '../pages/Founders'
 import Contact from "../pages/Contact"
 import SupportIndividual from "../pages/SupportIndividual"
 import SupportCorporate from "../pages/SupportCorporate"
+import ForeverPlaid from "../pages/ForeverPlaid"
 
 const MainContainer = () => {
     return (
@@ -41,6 +42,9 @@ const MainContainer = () => {
             </Route>
             <Route path="/support-corporate">
                 <SupportCorporate />
+            </Route>
+            <Route path="/plaid">
+                <ForeverPlaid />
             </Route>
         </Switch>
     )
