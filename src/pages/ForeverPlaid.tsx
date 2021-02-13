@@ -7,14 +7,53 @@ import topher_img from '../images/plaid/topher_esguerra.jpg'
 import xander_img from '../images/plaid/xander_mason.jpeg'
 import chach_img from '../images/plaid/chach_snook.jpg'
 import matt_img from '../images/plaid/matt_holter.jpg'
+import logo from '../images/PlaidLogo.png'
+import TicketButton from '../components/TicketButton'
 
 const ForeverPlaid = () => {
 
     return (
         <Fragment>
-            <section className="about py-5 p-3 px-md-5">
-                <h1>Forever Plaid</h1>
-                <h4>Written by Stuart Ross</h4>
+            <section className="plaid py-5 p-3 px-md-5 container-fluid">
+                <div className="row">
+                    <div className="offset-lg-3 col-lg-6 ">
+                        <img className="img-fluid" src={logo} alt="Forever Plaid" />
+
+                    </div>
+
+                </div>
+                <div className="row text-center">
+                    <div className="offset-sm-5 col-sm-2 ">
+
+                    <TicketButton ticketURL="/tickets" text="Buy Tickets" />
+                    </div>
+                </div>
+                <div className="row text-center">
+                    <div className="offset-sm-4 col-sm-4">
+                    <h4>March 12th - 21st</h4>
+                    </div>
+                </div>
+                <div className="row text-center">
+                    <div className="offset-sm-2 col-sm-8">
+                    <p><em>Forever Plaid</em> is one of the most popular and successful musicals in recent memory. This
+                    deliciously fun revue is chock-full of classic barbershop quartet harmonies and pitch-perfect
+                    melodies! Directed by Chach Snook who was on the National Tour of the show as well as Music
+                    Directed by Matthew Holter who is a founder of the doo-wop group The 4GENTS, this show
+                    will be sure to delight and move audiences!</p>
+                    <p>
+                        Once upon a time, there were four guys (Sparky, Smudge, Jinx and Frankie) who discovered that
+                        they shared a love for music and then got together to become their idols – The Four Freshman,
+                        The Hi-Lo&#39;s and The Crew Cuts. Rehearsing in the basement of Smudge&#39;s family&#39;s plumbing
+                        supply company, they became &quot;Forever Plaid&quot;. On the way to their first big gig, the &quot;Plaids&quot; are
+                        broadsided by a school bus and killed instantly. It is at the moment when their careers and lives
+                    end that the story of <em>Forever Plaid</em> begins....
+                    </p><p>
+                        Singing in close harmony, squabbling boyishly over the smallest intonations and executing their
+                        charmingly outlandish choreography with overzealous precision, the &quot;Plaids&quot; are a guaranteed
+                        smash, with a program of beloved songs and delightful patter that keeps audiences rolling in the
+                    aisles when they&#39;re not humming along to some of the great nostalgic pop hits of the 1950s.</p>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="offset-lg-1 col-lg-10 ">
                         <h2>Cast</h2>

@@ -96,6 +96,10 @@ span.nav-link{
   background: url(../images/bg/subtle_white_feathers.png);
 }
 
+.plaid{
+  background: url(../images/bg/plaid.png);
+}
+
  @media screen and (max-width: 540px){
   #carouselTitle{
     font-size: 72px;
