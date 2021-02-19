@@ -83,7 +83,7 @@ const ForeverPlaid = () => {
                             continued support.
                         </Bio>
                         <Bio
-                            name='Matt Holter (Music Director)'
+                            name='Matthew Holter (Music Director)'
                             image={matt_img}
                         >
                             is originally from the Fargo-Moorhead area and grew up
