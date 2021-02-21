@@ -20,6 +20,9 @@ const Tickets = () => {
                     <br />
                     March 12th - 21st (Fridays, Saturdays and Sundays) <br />
                     Fridays and Saturdays at 7pm, Sundays at 2pm
+                    <p>
+                      <strong><a href="tel:+15203190400">520-319-0400</a></strong>
+                    </p>
                   </p>
 
                   <TicketButton
@@ -31,10 +34,12 @@ const Tickets = () => {
                   <p>
                     <strong>COVID-19 Precautions</strong>
                     <br />
-                    Arts Express is committed to following CDC, State, and Municipal guidelines for slowing the spread of COVID-19. 
-                    Buying a ticket reserves you a private table that will only seat you and up to 2 others in your party. Strict protocols will be followed including
-                    requiring performers, staff, and patrons to be masked at all times. 
-                    
+                    Arts Express is committed to following CDC, State, and
+                    Municipal guidelines for slowing the spread of COVID-19.
+                    Buying a ticket reserves you a private table that will only
+                    seat you and up to 5 others in your party. Strict protocols
+                    will be followed including requiring performers, staff, and
+                    patrons to be masked at all times.
                   </p>
                   <TicketButton
                     text="Read more about AE's COVID19 Precautions"
@@ -65,7 +70,7 @@ const Tickets = () => {
 
               <p>
                 To purchase tickets via phone, contact our box office at{" "}
-                <strong>520.261.0915</strong>.<br />
+                <strong><a href="tel:+15202610915">520-261-0915</a></strong>.<br />
                 <em>
                   Please leave a message with your name and phone number.
                   <br />
@@ -76,8 +81,8 @@ const Tickets = () => {
 
               <p>
                 Please contact us at <strong>boxoffice.sapac@gmail.com</strong>{" "}
-                or <strong>520.261.0915</strong>
-                with questions or for more information.
+                or <strong><a href="tel:+15202610915">520-261-0915</a></strong> with questions or for more
+                information.
               </p>
             </div>
           </div>
