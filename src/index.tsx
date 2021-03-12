@@ -11,6 +11,9 @@ import './styles/main.css'
 import App from './components/App';
 import ScrollToTop from './components/ScrollToTop';
 
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 ReactDOM.render(
     <React.StrictMode>
         <Router basename="/">
