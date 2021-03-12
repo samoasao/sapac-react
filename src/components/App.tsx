@@ -6,7 +6,6 @@ import Navbar from "./Navbar";
 import MainContainer from "./MainContainer";
 
 function App() {
-  const reload = () => window.location.reload();
 
   return (
     <React.Fragment>
@@ -15,9 +14,9 @@ function App() {
           <Redirect to={process.env.PUBLIC_URL + "/program.pdf"} />
         </Route>
         <Route
-          path="/program.pdf"
+          path={process.env.PUBLIC_URL + "/program.pdf"}
           render={() => {
-            reload();
+            window.location.reload();
             return <React.Fragment />;
           }}
         ></Route>
