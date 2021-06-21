@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sapac-react/static/css/main.437ef461.chunk.css",
-    "main.js": "/sapac-react/static/js/main.888d79ee.chunk.js",
-    "main.js.map": "/sapac-react/static/js/main.888d79ee.chunk.js.map",
+    "main.js": "/sapac-react/static/js/main.39ef484d.chunk.js",
+    "main.js.map": "/sapac-react/static/js/main.39ef484d.chunk.js.map",
     "runtime-main.js": "/sapac-react/static/js/runtime-main.b5faaab0.js",
     "runtime-main.js.map": "/sapac-react/static/js/runtime-main.b5faaab0.js.map",
     "static/css/2.150d169a.chunk.css": "/sapac-react/static/css/2.150d169a.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/Amy.2019721f.jpg": "/sapac-react/static/media/Amy.2019721f.jpg",
     "static/media/Ben Plaid Logo.e67cc242.png": "/sapac-react/static/media/Ben Plaid Logo.e67cc242.png",
     "static/media/main.css": "/sapac-react/static/media/subtle_white_feathers.1944426b.png",
+    "static/media/Danny Plaid Logo.3a6fa786.png": "/sapac-react/static/media/Danny Plaid Logo.3a6fa786.png",
     "static/media/Dennis_Tamblyn.c2f61499.jpg": "/sapac-react/static/media/Dennis_Tamblyn.c2f61499.jpg",
     "static/media/Founders.3b89cb32.jpg": "/sapac-react/static/media/Founders.3b89cb32.jpg",
     "static/media/Group Jumping Logo.9efde3a9.png": "/sapac-react/static/media/Group Jumping Logo.9efde3a9.png",
@@ -25,7 +26,7 @@
     "static/media/Liam Plaid Logo.08ceca57.png": "/sapac-react/static/media/Liam Plaid Logo.08ceca57.png",
     "static/media/NewWorld.998ea546.png": "/sapac-react/static/media/NewWorld.998ea546.png",
     "static/media/PlaidLogo.a0dea583.png": "/sapac-react/static/media/PlaidLogo.a0dea583.png",
-    "static/media/PlaidLogoBanner.9d63ac0c.png": "/sapac-react/static/media/PlaidLogoBanner.9d63ac0c.png",
+    "static/media/PlaidLogoBanner.39658956.png": "/sapac-react/static/media/PlaidLogoBanner.39658956.png",
     "static/media/SAPAClogo.96c08f9a.png": "/sapac-react/static/media/SAPAClogo.96c08f9a.png",
     "static/media/SAPAClogowordmark.8b552947.png": "/sapac-react/static/media/SAPAClogowordmark.8b552947.png",
     "static/media/Topher Plaid Logo.24005e90.png": "/sapac-react/static/media/Topher Plaid Logo.24005e90.png",
@@ -37,7 +38,7 @@
     "static/media/kelli_workman.80ba6233.jpg": "/sapac-react/static/media/kelli_workman.80ba6233.jpg",
     "static/media/maria.67d436dd.jpg": "/sapac-react/static/media/maria.67d436dd.jpg",
     "static/media/matt_holter.b5b8d30e.jpg": "/sapac-react/static/media/matt_holter.b5b8d30e.jpg",
-    "static/media/nextToNormalLogo.4550116b.png": "/sapac-react/static/media/nextToNormalLogo.4550116b.png",
+    "static/media/nextToNormalLogo.3aa60d0f.png": "/sapac-react/static/media/nextToNormalLogo.3aa60d0f.png",
     "static/media/nunsenseLogo.7037c385.png": "/sapac-react/static/media/nunsenseLogo.7037c385.png",
     "static/media/title_of_show.d0387cbf.png": "/sapac-react/static/media/title_of_show.d0387cbf.png"
   },
@@ -46,6 +47,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.78ef5cd9.chunk.js",
     "static/css/main.437ef461.chunk.css",
-    "static/js/main.888d79ee.chunk.js"
+    "static/js/main.39ef484d.chunk.js"
   ]
 }
