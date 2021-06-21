@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fdbdf9c2.chunk.css",
-    "main.js": "/static/js/main.5bcb0ada.chunk.js",
-    "main.js.map": "/static/js/main.5bcb0ada.chunk.js.map",
+    "main.js": "/static/js/main.b238244d.chunk.js",
+    "main.js.map": "/static/js/main.b238244d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ac8ce1bd.js",
     "runtime-main.js.map": "/static/js/runtime-main.ac8ce1bd.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -24,7 +24,7 @@
     "static/media/Kevin_Hansen.f108c0fd.jpg": "/static/media/Kevin_Hansen.f108c0fd.jpg",
     "static/media/Liam Plaid Logo.08ceca57.png": "/static/media/Liam Plaid Logo.08ceca57.png",
     "static/media/NewWorld.998ea546.png": "/static/media/NewWorld.998ea546.png",
-    "static/media/PlaidLogo.b358d66d.png": "/static/media/PlaidLogo.b358d66d.png",
+    "static/media/PlaidLogo.a0dea583.png": "/static/media/PlaidLogo.a0dea583.png",
     "static/media/PlaidLogoBanner.9d63ac0c.png": "/static/media/PlaidLogoBanner.9d63ac0c.png",
     "static/media/SAPAClogo.96c08f9a.png": "/static/media/SAPAClogo.96c08f9a.png",
     "static/media/SAPAClogowordmark.8b552947.png": "/static/media/SAPAClogowordmark.8b552947.png",
@@ -37,6 +37,8 @@
     "static/media/kelli_workman.80ba6233.jpg": "/static/media/kelli_workman.80ba6233.jpg",
     "static/media/maria.67d436dd.jpg": "/static/media/maria.67d436dd.jpg",
     "static/media/matt_holter.b5b8d30e.jpg": "/static/media/matt_holter.b5b8d30e.jpg",
+    "static/media/nextToNormalLogo.4550116b.png": "/static/media/nextToNormalLogo.4550116b.png",
+    "static/media/nunsenseLogo.7037c385.png": "/static/media/nunsenseLogo.7037c385.png",
     "static/media/title_of_show.d0387cbf.png": "/static/media/title_of_show.d0387cbf.png"
   },
   "entrypoints": [
@@ -44,6 +46,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.78ef5cd9.chunk.js",
     "static/css/main.fdbdf9c2.chunk.css",
-    "static/js/main.5bcb0ada.chunk.js"
+    "static/js/main.b238244d.chunk.js"
   ]
 }
