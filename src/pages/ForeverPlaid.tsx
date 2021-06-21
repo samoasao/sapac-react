@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import Bio from "../components/Bio";
 
+import danny_img from "../images/plaid/Danny Plaid Logo.png";
 import ben_img from "../images/plaid/Ben Plaid Logo.png";
 import liam_img from "../images/plaid/Liam Plaid Logo.png";
 import topher_img from "../images/plaid/Topher Plaid Logo.png";
@@ -29,7 +30,7 @@ const ForeverPlaid = () => {
         </div>
         <div className="row text-center">
           <div className="offset-sm-4 col-sm-4">
-            <h4>March 12th - 21st</h4>
+            <h4>August 12th - 14th</h4>
           </div>
         </div>
         <div className="row text-center">
@@ -146,14 +147,31 @@ const ForeverPlaid = () => {
               of his closest friends that help him follow his dreams of
               performing.
             </Bio>
-            <Bio name="Xander Mason (SPARKY)" image={xander_img}>
+            <Bio
+              name="Xander Mason (SPARKY 8/13, 8/14 @ 7pm)"
+              image={xander_img}
+            >
               is thrilled to be playing Sparky! He recently graduated from the
               University of Arizona with a BFA in Musical Theatre. Some of his
-              favorite roles have been Johnny (<em>American Idiot)</em>, Bobby (
+              favorite roles have been Johnny (<em>American Idiot</em>), Bobby (
               <em>Cabaret</em>), and Ernst (<em>Spring Awakening</em>). “I’d
               like to thank my parents and sister for being my support system,
               my friends for encouragement and inspiration, and the audience for
               letting us share this story with you.”
+            </Bio>
+            <Bio name="Danny Fapp (SPARKY 8/12, 8/14 @ 2pm)" image={danny_img}>
+              is thrilled to be joining SAPAC for the first time with Forever
+              Plaid. Danny previously appeared in Tucson in shows like{" "}
+              <em>The Light Princess</em> (Stone Suitor) and{" "}
+              <em>She Loves Me</em> (Waiter), as well as in the Quad Cities in{" "}
+              <em>A Green River</em> (Jason). Danny is a Junior at the
+              University of Arizona and is currently pursuing degrees in
+              Marketing and Creative Writing. He is also a Vice President of the
+              Charles Darwin Experience, a University-based short form improv
+              team that normally performs weekly shows for students and the
+              community alike. It has been his utmost honor to understudy and
+              assistant direct this wonderful cast, and he can't wait for you to
+              see the show!
             </Bio>
             <Bio name="Ben Muckenthaler (FRANKIE)" image={ben_img}>
               is proud to be in his first show with SAPAC. He is currently
