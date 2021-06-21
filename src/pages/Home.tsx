@@ -118,7 +118,7 @@ const Home = () => {
           </p>
 
           <TicketButton
-            ticketURL={process.env.PUBLIC_URL + "/tickets"}
+            ticketURL={"/tickets"}
             text="Buy Tickets"
             newWindow={false}
           />
@@ -170,7 +170,7 @@ const Home = () => {
           <p>Directed by MAC-nominated director, Annette Hillman.</p>
 
           <TicketButton
-            ticketURL={process.env.PUBLIC_URL + "/tickets"}
+            ticketURL={"/tickets"}
             text="Buy Tickets"
             newWindow={false}
           />
@@ -207,7 +207,7 @@ const Home = () => {
             on the stage with the actors!
           </p>
           <TicketButton
-            ticketURL={process.env.PUBLIC_URL + "/tickets"}
+            ticketURL={"/tickets"}
             text="Buy Tickets"
             newWindow={false}
           />
