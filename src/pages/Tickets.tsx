@@ -127,7 +127,7 @@ const Tickets = () => {
               <p>
                 To purchase tickets via phone, contact our box office at{" "}
                 <strong>
-                  <a href="tel:+15202610915">520-261-0915</a>
+                  <a href="tel:+4015944895">401-594-4895</a>
                 </strong>
                 .<br />
                 <em>
@@ -142,7 +142,7 @@ const Tickets = () => {
                 Please contact us at <strong>boxoffice.sapac@gmail.com</strong>{" "}
                 or{" "}
                 <strong>
-                  <a href="tel:+15202610915">520-261-0915</a>
+                  <a href="tel:+40159414895">401-594-4895</a>
                 </strong>{" "}
                 with questions or for more information.
               </p>
