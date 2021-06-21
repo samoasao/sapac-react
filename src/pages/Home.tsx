@@ -70,17 +70,17 @@ const Home = () => {
         <ShowCard
           image={plaidLogo}
           showInfoURL="/plaid"
-          title="Forever Plaid"
+          title="Forever Plaid (Unmasked)"
           byline="Written by Stuart Ross"
           location={[
-            "Arts Express Theatre at The Park Place Mall",
-            "Community Performing Arts Center, Green Valley",
+            "Vail Theatre of the Arts",
+            "10701 E Mary Ann Cleveland Way",
+            "Tucson, AZ 85747"
           ]}
           performanceDate={[
-            "Arts Express - March 12th - 21st 2021 (Fridays and Saturdays at 7pm, Sundays at 2pm)",
-            "CPAC - Saturday April 3rd at 3pm and 7pm",
+            "August 12th and 13th @ 7pm",
+            "August 14th @ 2pm & 7pm",
           ]}
-          // ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
         >
           <Link to="/plaid" className="btn btn-info btn-lg">
             Cast and Creative Team
@@ -114,23 +114,10 @@ const Home = () => {
             keeps audiences rolling in the aisles when they&#39;re not humming
             along to some of the great nostalgic pop hits of the 1950s.
           </p>
-          <p><strong>COVID-19 Precautions</strong></p>
-          <p>
-            Arts Express is committed to following CDC, State, and Municipal
-            guidelines for slowing the spread of COVID-19. Buying a ticket
-            reserves you a private table that will only seat you and up to 5
-            others in your party. Strict protocols will be followed including
-            requiring performers, staff, and patrons to be masked at all times.
-          </p>
 
           <TicketButton
-            ticketURL="https://arts-express.simpletix.com/e/64173?aff=HomePageLink"
-            text="Buy Tickets for Arts Express Theatre"
-          />
-          <div className="my-2"></div>
-          <TicketButton
-            ticketURL="https://performingartscenter.thundertix.com/events/183967"
-            text="Buy Tickets For Community Performing Arts Center, Green Valley"
+            ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+            text="Buy Tickets"
           />
         </ShowCard>
       </section>
