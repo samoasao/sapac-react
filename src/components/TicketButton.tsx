@@ -1,12 +1,20 @@
-import { Link } from "react-router-dom";
-
 type TicketButtonProps = {
-    ticketURL: string,
-    text: string
-}
+  ticketURL: string;
+  newWindow?: boolean;
+  text: string;
+};
 
-
-const TicketButton = (props:TicketButtonProps) =>{
-    return <Link to={props.ticketURL} rel="noreferrer" target="_blank" className="btn btn-dark btn-lg">{props.text}</Link>;
-}
-export default TicketButton; 
+const TicketButton = (props: TicketButtonProps) => {
+  const { newWindow = true } = props;
+  return (
+    <a
+      href={props.ticketURL}
+      rel="noreferrer"
+      target={newWindow ? "_blank" : ""}
+      className="btn btn-dark btn-lg"
+    >
+      {props.text}
+    </a>
+  );
+};
+export default TicketButton;

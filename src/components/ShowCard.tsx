@@ -20,7 +20,12 @@ class ShowCard extends React.Component<ShowCardProps> {
       return (
         <p className={className}>
           {locations.map((location) => {
-            return <span className={className}>{location}<br /></span>;
+            return (
+              <span key={"key-" + location} className={className}>
+                {location}
+                <br />
+              </span>
+            );
           })}
         </p>
       );
