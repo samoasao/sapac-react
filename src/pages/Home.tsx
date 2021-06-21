@@ -118,7 +118,7 @@ const Home = () => {
           </p>
 
           <TicketButton
-            ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+            ticketURL="/tickets"
             text="Buy Tickets"
           />
         </ShowCard>
@@ -130,7 +130,7 @@ const Home = () => {
           location={[
             "Scoundrel and Scamp Theatre at the Historic Y",
             "738 N 5th Ave.",
-            "Tucson, AZ",
+            "Tucson, AZ 85705",
           ]}
           performanceDate={[
             "August 20th - 22nd",
@@ -154,77 +154,58 @@ const Home = () => {
             their daughter and son are bright, wise-cracking teens, appearing to
             be a typical American family. And yet their lives are anything but
             normal because the mother has been battling manic depression for 16
-            years. <em>Next to Normal</em> takes audiences into the minds and hearts of
-            each character, presenting their family's story with love, sympathy
-            and heart.
+            years. <em>Next to Normal</em> takes audiences into the minds and
+            hearts of each character, presenting their family's story with love,
+            sympathy and heart.
           </p>
           <p>
             {" "}
             This deeply moving piece of theatre provides a wonderful opportunity
             for performers to explore dramatic material and showcase vocal
-            talents with an energetic pop/rock score. <em>Next to Normal</em> is an
-            emotional powerhouse that addresses such issues as grieving a loss,
-            ethics in modern psychiatry, and suburban life and is ideal for
-            community theatres, as well as colleges and regional theatre
-            companies.
+            talents with an energetic pop/rock score. <em>Next to Normal</em> is
+            an emotional powerhouse that addresses such issues as grieving a
+            loss, ethics in modern psychiatry, and suburban life.
           </p>
           <p>Directed by MAC-nominated director, Annette Hillman.</p>
 
           <TicketButton
-            ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+            ticketURL="/tickets"
             text="Buy Tickets"
           />
         </ShowCard>
         <ShowCard
           image={nunsenseLogo}
-          showInfoURL="/plaid"
-          title="next to normal"
-          byline="Music by Tom Kitt, Book and Lyrics by Brian Yorkey"
+          showInfoURL="/tickets"
+          title="Nunsense"
+          byline="Written by Dan Goggin"
           location={[
-            "Scoundrel and Scamp Theatre at the Historic Y",
-            "738 N 5th Ave.",
-            "Tucson, AZ 85705",
+            "Desert View High School",
+            "4101 E Valencia Rd.",
+            "Tucson, AZ 85706",
           ]}
           performanceDate={[
-            "August 12th and 13th @ 7pm",
-            "August 14th @ 2pm & 7pm",
+            "September 24th - 26th",
+            "October 1st - 3rd",
+            "Fridays @ 7pm, Saturdays @ 2pm and 7pm, Sundays @ 2pm",
           ]}
         >
-          <Link to="/plaid" className="btn btn-info btn-lg">
-            Cast and Creative Team
-          </Link>
           <hr></hr>
           <p>
-            <em>Forever Plaid</em> is one of the most popular and successful
-            musicals in recent memory. This deliciously fun revue is chock-full
-            of classic barbershop quartet harmonies and pitch-perfect melodies!
-            Directed by Chach Snook who was on the National Tour of the show as
-            well as Music Directed by Matthew Holter who is a founder of the
-            doo-wop group The 4GENTS, this show will be sure to delight and move
-            audiences!
+            <em>Nunsense</em> is a hilarious spoof about the misadventures of five nuns
+            trying to manage a fundraiser. Sadly, the rest of the sisterhood
+            died from poisoning after eating vichyssoise prepared by Sister
+            Julia Child of God. Thus, the remaining nuns – ballet-loving Sister
+            Leo, street-wise Sister Robert Anne, befuddled Sister Mary Amnesia,
+            the Mother Superior Sister Regina, and mistress of the novices
+            Sister Mary Hubert – stage a talent show in order to raise the money
+            to bury their dearly departed. With catchy songs and irreverent
+            comedy and directed by MAC-winning director Samantha Cormier,
+            <em>Nunsense</em> is sure to keep audiences rolling with laughter. Presented
+            in a truly immersive way by placing the audience on the stage with
+            the actors!
           </p>
-          <p>
-            Once upon a time, there were four guys (Sparky, Smudge, Jinx and
-            Frankie) who discovered that they shared a love for music and then
-            got together to become their idols – The Four Freshman, The
-            Hi-Lo&#39;s and The Crew Cuts. Rehearsing in the basement of
-            Smudge&#39;s family&#39;s plumbing supply company, they became
-            &quot;Forever Plaid&quot;. On the way to their first big gig, the
-            &quot;Plaids&quot; are broadsided by a school bus and killed
-            instantly. It is at the moment when their careers and lives end that
-            the story of <em>Forever Plaid</em> begins....
-          </p>
-          <p>
-            Singing in close harmony, squabbling boyishly over the smallest
-            intonations and executing their charmingly outlandish choreography
-            with overzealous precision, the &quot;Plaids&quot; are a guaranteed
-            smash, with a program of beloved songs and delightful patter that
-            keeps audiences rolling in the aisles when they&#39;re not humming
-            along to some of the great nostalgic pop hits of the 1950s.
-          </p>
-
           <TicketButton
-            ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+            ticketURL="/tickets"
             text="Buy Tickets"
           />
         </ShowCard>

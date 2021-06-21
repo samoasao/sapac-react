@@ -25,7 +25,6 @@ const ForeverPlaid = () => {
             <Link to="/tickets" className="btn btn-dark btn-lg">
               Tickets and Venue Information
             </Link>
-            Í
           </div>
         </div>
         <div className="row text-center">
