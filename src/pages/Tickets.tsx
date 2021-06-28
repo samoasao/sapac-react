@@ -15,7 +15,7 @@ const Tickets = () => {
             <p>
               Tickets for all 3 productions are available through{" "}
               <a
-                href="https://www.tix.com/ticket-sales/tix/6126"
+                href="https://www.tix.com/ticket-sales/SAPAC/6126"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -52,7 +52,7 @@ const Tickets = () => {
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const Tickets = () => {
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ const Tickets = () => {
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/tix/6126"
+                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
                   </div>
                 </div>
