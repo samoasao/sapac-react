@@ -114,7 +114,7 @@ const ForeverPlaid = () => {
               frequently in district and public performances. In addition to his
               teaching, he is involved with numerous music organizations,
               notably Grammy-nominated True Concord Voices &amp; Orchestra and
-              founding The 4GENTS, Tucson&#39;s old-school, doo-wop professors.
+              founding The 4GENTS, Tucson&#39;s old-school, doo-wop quartet.
               Since 2015, Mr. Holter has served as the Music Director for St.
               Thomas the Apostle Catholic Church in Tucson. Matthew and his
               wife, Victoria, live happily in Tucson with their five children.
