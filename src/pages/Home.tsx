@@ -167,7 +167,7 @@ const Home = () => {
             an emotional powerhouse that addresses such issues as grieving a
             loss, ethics in modern psychiatry, and suburban life.
           </p>
-          <p>Directed by MAC-nominated director, Annette Hillman.</p>
+          <p>Directed by MAC award winning director, Annette Hillman.</p>
 
           <TicketButton
             ticketURL={"/tickets"}
