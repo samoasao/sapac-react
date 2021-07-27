@@ -168,6 +168,7 @@ const Home = () => {
             loss, ethics in modern psychiatry, and suburban life.
           </p>
           <p>Directed by MAC award winning director, Annette Hillman.</p>
+          <p className="font-weight-bold">Some scenes use flashing lights or strobing effect that may affect photosensitive viewers.</p>
 
           <TicketButton
             ticketURL={"/tickets"}
