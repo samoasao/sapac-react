@@ -13,7 +13,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/sapac-react/">
+    <Router basename="/">
       <ScrollToTop>
         <App />
       </ScrollToTop>
