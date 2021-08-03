@@ -139,6 +139,9 @@ const Home = () => {
             "Fridays @ 7pm, Saturdays @ 2pm & 7pm, Sundays @ 2pm",
           ]}
         >
+          <Link to="/ntn" className="btn btn-info btn-lg">
+            Cast and Creative Team
+          </Link>
           <hr></hr>
           <p>
             <em>Next to Normal</em>, with book and lyrics by Brian Yorkey and
@@ -192,7 +195,7 @@ const Home = () => {
             "Fridays @ 7pm, Saturdays @ 2pm and 7pm, Sundays @ 2pm",
           ]}
         >
-          <hr></hr>
+          <hr id="nunsense"></hr>
           <p>
             <em>Nunsense</em> is a hilarious spoof about the misadventures of
             five nuns trying to manage a fundraiser. Sadly, the rest of the

@@ -11,6 +11,7 @@ import Contact from "../pages/Contact"
 import SupportIndividual from "../pages/SupportIndividual"
 import SupportCorporate from "../pages/SupportCorporate"
 import ForeverPlaid from "../pages/ForeverPlaid"
+import NextToNormal from "../pages/NextToNormal"
 
 
 const MainContainer = () => {
@@ -46,6 +47,9 @@ const MainContainer = () => {
             </Route>
             <Route path="/plaid">
                 <ForeverPlaid />
+            </Route>
+            <Route path="/ntn">
+                <NextToNormal />
             </Route>
         </Switch>
     )
