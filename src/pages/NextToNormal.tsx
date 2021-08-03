@@ -117,16 +117,6 @@ const NextToNormal = () => {
               Two-Joe Bourne Productions, It Don’t Mean a Thing-Pete Swan
               Productions, Headliner-Mister Bing Presents-2014-2017
             </Bio>
-            <Bio name="Xander Mason (GABE)" image={xander_img}>
-              is thrilled to be posting Gabe in Next to Normal. Some of his
-              favorite shows he’s performed in have been American Idiot
-              (Johnny), Spring Awakening (Ernst), and Bobby (Cabaret). You can
-              also catch him as the frontman of local band Brace Yourself. “I’d
-              like to thank my parents, friends, and the whole company of Next
-              to Normal. You all helped provide the space for necessary issues
-              to be talked about in the theatre and I couldn’t be more
-              grateful!”
-            </Bio>
             <Bio name="Matthew Holter (DAN)," image={matt_img}>
               originally from Fargo, North Dakota, has a performing and
               directing résumé that spans the concert stage to the sound stage
@@ -163,6 +153,16 @@ const NextToNormal = () => {
               wonderful cast and creative team for being so amazing and
               supportive, as well as her family and friends. She hopes that you
               enjoy this beautiful and heartfelt show.
+            </Bio>
+            <Bio name="Xander Mason (GABE)" image={xander_img}>
+              is thrilled to be posting Gabe in Next to Normal. Some of his
+              favorite shows he’s performed in have been American Idiot
+              (Johnny), Spring Awakening (Ernst), and Bobby (Cabaret). You can
+              also catch him as the frontman of local band Brace Yourself. “I’d
+              like to thank my parents, friends, and the whole company of Next
+              to Normal. You all helped provide the space for necessary issues
+              to be talked about in the theatre and I couldn’t be more
+              grateful!”
             </Bio>
             <Bio
               name="Daniel Altamirano (HENRY)"
