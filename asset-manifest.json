@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sapac-react/static/css/main.d4ec35ee.chunk.css",
-    "main.js": "/sapac-react/static/js/main.d248e108.chunk.js",
-    "main.js.map": "/sapac-react/static/js/main.d248e108.chunk.js.map",
+    "main.js": "/sapac-react/static/js/main.b69d9fc7.chunk.js",
+    "main.js.map": "/sapac-react/static/js/main.b69d9fc7.chunk.js.map",
     "runtime-main.js": "/sapac-react/static/js/runtime-main.b5faaab0.js",
     "runtime-main.js.map": "/sapac-react/static/js/runtime-main.b5faaab0.js.map",
     "static/css/2.081f420c.chunk.css": "/sapac-react/static/css/2.081f420c.chunk.css",
@@ -54,6 +54,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.d435de6e.chunk.js",
     "static/css/main.d4ec35ee.chunk.css",
-    "static/js/main.d248e108.chunk.js"
+    "static/js/main.b69d9fc7.chunk.js"
   ]
 }
