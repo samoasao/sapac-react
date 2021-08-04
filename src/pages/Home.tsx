@@ -117,6 +117,11 @@ const Home = () => {
             along to some of the great nostalgic pop hits of the 1950s.
           </p>
 
+          <p className="font-weight-bold">
+            Audience members are strongly encouraged to wear masks. Performers will
+            not be masked.
+          </p>
+
           <TicketButton
             ticketURL={"/tickets"}
             text="Buy Tickets"
@@ -171,7 +176,14 @@ const Home = () => {
             loss, ethics in modern psychiatry, and suburban life.
           </p>
           <p>Directed by MAC award winning director, Annette Hillman.</p>
-          <p className="font-weight-bold">Some scenes use flashing lights or strobing effect that may affect photosensitive viewers.</p>
+          <p className="font-weight-bold">
+            Some scenes use flashing lights or strobing effect that may affect
+            photosensitive viewers.
+          </p>
+          <p className="font-weight-bold">
+            Audience members are strongly encouraged to wear masks. Performers will
+            not be masked.
+          </p>
 
           <TicketButton
             ticketURL={"/tickets"}
@@ -209,6 +221,10 @@ const Home = () => {
             Cormier, <em>Nunsense</em> is sure to keep audiences rolling with
             laughter. Presented in a truly immersive way by placing the audience
             on the stage with the actors!
+          </p>
+          <p className="font-weight-bold">
+            Audience members are strongly encouraged to wear masks. Performers will
+            not be masked.
           </p>
           <TicketButton
             ticketURL={"/tickets"}

@@ -29,8 +29,7 @@ const Tickets = () => {
               (discount automatically applies).
             </p>
             <div className="row">
-              {/* CARD 1 */}
-              <div className="col-md-4 p-5">
+              <div className="col-md-4">
                 <div className="card">
                   <img
                     className="card-img-top"
@@ -49,6 +48,10 @@ const Tickets = () => {
                         August 14 @ 2pm & 7pm <br />
                       </p>
                       <p>$20 - $25</p>
+                      <p className="font-weight-bold">
+            Audience members are strongly encouraged to wear masks. Performers will
+            not be masked.
+          </p>
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
@@ -57,8 +60,7 @@ const Tickets = () => {
                   </div>
                 </div>
               </div>
-              {/* CARD 3 */}
-              <div className="col-md-4 p-5">
+              <div className="col-md-4 px-3">
                 <div className="card">
                   <img
                     className="card-img-top"
@@ -80,6 +82,10 @@ const Tickets = () => {
                         <br />
                       </p>
                       <p>$22.50 - $29.50</p>
+                      <p className="font-weight-bold">
+            Audience members are strongly encouraged to wear masks. Performers will
+            not be masked.
+          </p>
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
@@ -88,8 +94,7 @@ const Tickets = () => {
                   </div>
                 </div>
               </div>
-              {/* CARD 3 */}
-              <div className="col-md-4 p-5">
+              <div className="col-md-4">
                 <div className="card">
                   <img
                     className="card-img-top m"
@@ -109,6 +114,10 @@ const Tickets = () => {
                         October 1st - 3rd <br />
                       </p>
                       <p>$20 - $25</p>
+                      <p className="font-weight-bold">
+            Audience members are strongly encouraged to wear masks. Performers will
+            not be masked.
+          </p>
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
@@ -117,6 +126,39 @@ const Tickets = () => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="row">
+            <div className="py-1 col-lg-10">
+              <h4>COVID-19 Information</h4>
+              <p>
+                We at SAPAC are committed to providing a safe environment to
+                attend and watch our shows. We are now asking that all audience
+                members wear masks during our performances and if you are sick,
+                then we will issue a refund or provide you with a credit to a
+                future SAPAC show.{" "}
+              </p>
+              <p>
+                Furthermore, if we feel that anyone is attending a show and
+                might compromise the health of others then we will ask that
+                patron to leave with a full refund or a credit to a future show.
+              </p>
+              <p>
+                Performers for our shows will NOT be masked and all cast and
+                crew are fully vaccinated.
+              </p>{" "}
+              <p>
+                We have a great season of theater coming up and we want everyone
+                to stay safe and also feel comfortable coming to enjoy live
+                theater again. If you have not been vaccinated, we encourage you
+                to do so.
+              </p>
+              <p>
+                {" "}
+                Thank you for your understanding and cooperation while we
+                navigate through this new phase of the pandemic.
+              </p>
+            </div>
             </div>
 
             <div className="py-1 mx-auto">
