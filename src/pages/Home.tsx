@@ -118,8 +118,8 @@ const Home = () => {
           </p>
 
           <p className="font-weight-bold">
-            Audience members are strongly encouraged to wear masks. Performers will
-            not be masked.
+            Vail Theatre of the Arts requires that all audience members wear
+            masks inside the venue.
           </p>
 
           <TicketButton
@@ -181,8 +181,8 @@ const Home = () => {
             photosensitive viewers.
           </p>
           <p className="font-weight-bold">
-            Audience members are strongly encouraged to wear masks. Performers will
-            not be masked.
+            Scoundrel and Scamp Theatre requires that all audience members wear
+            masks inside the venue.
           </p>
 
           <TicketButton
@@ -223,8 +223,8 @@ const Home = () => {
             on the stage with the actors!
           </p>
           <p className="font-weight-bold">
-            Audience members are strongly encouraged to wear masks. Performers will
-            not be masked.
+            Audience members are strongly encouraged to wear masks. Performers
+            will not be masked.
           </p>
           <TicketButton
             ticketURL={"/tickets"}
