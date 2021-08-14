@@ -4,7 +4,7 @@ import Bio from "../components/Bio";
 
 import daniel_img from "../images/ntn/Daniel.jpeg";
 import allie_img from "../images/ntn/Allie.jpeg";
-import theo_img from "../images/ntn/Theo.jpeg";
+import dennis_img from "../images/ntn/Dennis.jpeg";
 import xander_img from "../images/ntn/xander_mason.jpeg";
 import liz_c_img from "../images/ntn/Liz_Cracchiolo.png";
 import liz_s_img from "../images/ntn/Liz_Spencer.jpeg";
@@ -88,8 +88,10 @@ const NextToNormal = () => {
               fingers crossed and masks on, she will appear in RUMOURS at Live
               Theatre Workshop as the tormented Cookie.
             </Bio>
-            <Bio name="Elizabeth Spencer (Music Director)" image={liz_s_img}>
-            </Bio>
+            <Bio
+              name="Elizabeth Spencer (Music Director)"
+              image={liz_s_img}
+            ></Bio>
           </div>
         </div>
         <div className="row">
@@ -164,40 +166,39 @@ const NextToNormal = () => {
               to be talked about in the theatre and I couldn’t be more
               grateful!”
             </Bio>
-            <Bio
-              name="Daniel Altamirano (HENRY)"
-              image={daniel_img}
-            >
-              is a Senior at the University of Arizona earning
-              a BFA in Musical Theatre. You may have seen him recently in the
-              productions of “Still Standing” a Pop/Rock Review at the Arizona
-              Repertoire Theatre and Pippin at the Arizona Repertoire Theatre.
-              He would love to thank the incredible cast and crew that have
-              worked hard to create a powerful show. He is also grateful to get
-              the chance to get back on the stage to create an art form that is
-              like no other. Insta: @danielaltamirano_r
+            <Bio name="Daniel Altamirano (HENRY)" image={daniel_img}>
+              is a Senior at the University of Arizona earning a BFA in Musical
+              Theatre. You may have seen him recently in the productions of
+              “Still Standing” a Pop/Rock Review at the Arizona Repertoire
+              Theatre and Pippin at the Arizona Repertoire Theatre. He would
+              love to thank the incredible cast and crew that have worked hard
+              to create a powerful show. He is also grateful to get the chance
+              to get back on the stage to create an art form that is like no
+              other. Insta: @danielaltamirano_r
             </Bio>
             <Bio
-              name="Theo Wischhusen (DOCTOR MADDEN, DOCTOR FINE)"
-              image={theo_img}
+              name="Dennis Tamblyn (DOCTOR MADDEN, DOCTOR FINE)"
+              image={dennis_img}
             >
-              Originally from Denver, CO, Theo moved to Tucson for high school
-              and college (Pima and UofA). Most recently, he toured for 8 years
-              with the Vegas group Oh What a Night: a Tribute to Frankie Valli
-              and the Four Season and has been a featured singer on multiple
-              cruise ships with Norwegian Cruise Lines and Silversea. He has
-              performed in shows around the US. Some of his roles include Jaime
-              in The Last 5 Years (Labyrinth Theater, TX), Jesus in Jesus Christ
-              Superstar (Aledo Musical Theater), Simon Zealotes in JCS (Media
-              Center for the Performing Arts, PA), Malcolm in The Full Monty
-              (Theater 3, Dallas), Britt Craig in Parade (WaterTower Theater,
-              TX), Joe Sutter in Spitfire Grill (WaterTower Theater, TX),
-              Professor Plum in Clue: The Musical (Dominion Theater, VA), Stone
-              in City of Angels (Flower Mound PAT), Theodore "Laurie" Laurence
-              III in Little Women: The Musical (San Jacinto Project, Dallas),
-              and St. John Rivers in Jane Eyre: The Musical (Lyric Stage,
-              Irving, TX). Theo is excited to be doing stage shows back in
-              Tucson and hopes everyone enjoys this very special show!
+              Dennis Tamblyn received a B.S in Biochemistry and Molecular
+              Biophysics before changing career paths and getting his B.M. in
+              Voice at the University of Arizona in Tucson. Dennis also received
+              his M.M. in Voice at the University of Northern Colorado. Dennis
+              has performed with such companies as Arizona OnStage, Arts
+              Express, Oro Valley Theater Company and the Gaslight Theatre. Some
+              of his credits include: Max Bialystock in{" "}
+              <span className="font-italic">The Producers</span> (MAC
+              Nomination), Quasimodo in{" "}
+              <span className="font-italic">The Hunchback of Notre Dame</span>,
+              Bill in <span className="font-italic">Mamma Mia!</span>, and Alfie
+              in <span className="font-italic">A Man of No Importance</span>.
+              Dennis has also enjoyed an active opera career over the past 20
+              years and has performed with such opera companies as Southern
+              Arizona Opera, Phoenix Opera, Opera New Jersey, Opera Classica,
+              Wiesbaden, Germany; Opera Fort Collins, Colorado; Arizona Opera,
+              Tucson; Loveland Opera Theater, Colorado. Dennis is so excited to
+              perform in this show that he has loved ever since the cast album
+              was released. Walk with me...
             </Bio>
           </div>
         </div>
