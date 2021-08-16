@@ -13,11 +13,6 @@ const links = [
         title: 'Shows',
         dropdowns: [
             [
-                
-                {
-                    title: 'Forever Plaid',
-                    url: '/plaid'
-                },
                 {
                     title: 'Next To Normal',
                     url: '/ntn'

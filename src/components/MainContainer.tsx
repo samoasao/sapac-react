@@ -3,14 +3,14 @@ import { Route, Switch } from "react-router-dom"
 //Pages
 import Home from '../pages/Home'
 import Board from '../pages/Board'
-import PastShows from '../pages/PastShows'
+import PastShows from '../pages/PastShows/'
 import Tickets from '../pages/Tickets'
 import Auditions from '../pages/Auditions'
 import Founders from '../pages/Founders'
 import Contact from "../pages/Contact"
 import SupportIndividual from "../pages/SupportIndividual"
 import SupportCorporate from "../pages/SupportCorporate"
-import ForeverPlaid from "../pages/ForeverPlaid"
+import ForeverPlaid from "../pages/PastShows/ForeverPlaid"
 import NextToNormal from "../pages/NextToNormal"
 
 

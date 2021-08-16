@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import Bio from "../components/Bio";
+import Bio from "../../components/Bio";
 
-import danny_img from "../images/plaid/Danny Plaid Logo.png";
-import ben_img from "../images/plaid/Ben Plaid Logo.png";
-import liam_img from "../images/plaid/Liam Plaid Logo.png";
-import topher_img from "../images/plaid/Topher Plaid Logo.png";
-import xander_img from "../images/plaid/Xander Plaid Logo.png";
-import chach_img from "../images/plaid/chach_snook.jpg";
-import matt_img from "../images/plaid/matt_holter.jpg";
-import jumping_img from "../images/plaid/Group Jumping Logo.png";
-import logo from "../images/PlaidLogoBanner.png";
+import danny_img from "./images/plaid/Danny Plaid Logo.png";
+import ben_img from "./images/plaid/Ben Plaid Logo.png";
+import liam_img from "./images/plaid/Liam Plaid Logo.png";
+import topher_img from "./images/plaid/Topher Plaid Logo.png";
+import xander_img from "./images/plaid/Xander Plaid Logo.png";
+import chach_img from "./images/plaid/chach_snook.jpg";
+import matt_img from "./images/plaid/matt_holter.jpg";
+import jumping_img from "./images/plaid/Group Jumping Logo.png";
+import logo from "./images/plaid/PlaidLogoBanner.png";
 
 const ForeverPlaid = () => {
   return (

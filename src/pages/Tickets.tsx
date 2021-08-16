@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import plaidLogo from "../images/PlaidLogo.png";
 import nextToNormalLogo from "../images/nextToNormalLogo.png";
 import nunsenseLogo from "../images/nunsenseLogo.png";
 
@@ -13,54 +12,18 @@ const Tickets = () => {
             <h2 className="card-title">Tickets</h2>
 
             <p>
-              Tickets for all 3 productions are available through{" "}
+              Tickets for all productions are available through{" "}
               <a
                 href="https://www.tix.com/ticket-sales/SAPAC/6126"
                 rel="noreferrer"
                 target="_blank"
               >
                 tix.com
-              </a>{" "}
-              <h4 className="pt-3">Season Ticket Promotion</h4>
-              Buy tickets to all 3 productions for a total of $59.50
-              <br />
-              Or buy tickets to any 2 of our upcoming productions for a total of
-              $44.50 <br />
-              (discount automatically applies).
+              </a>
             </p>
             <div className="row">
-              <div className="col-md-4">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={plaidLogo}
-                    alt="Card cap"
-                  />
-                  <div className="card-body">
-                    <div className="card-text pb-2">
-                      <p>
-                        <strong>Vail Theatre of the Arts</strong> <br />
-                        10701 E Mary Ann Cleveland Way, Tucson, AZ 85747
-                        <br />
-                      </p>
-                      <p>
-                        August 12 - 13 @ 7pm <br />
-                        August 14 @ 2pm & 7pm <br />
-                      </p>
-                      <p>$20 - $25</p>
-                      <p className="font-weight-bold">
-                        Vail Theatre of the Arts requires that all audience
-                        members wear masks inside the venue.
-                      </p>
-                    </div>
-                    <TicketButton
-                      text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
-                    ></TicketButton>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 px-3">
+                
+              <div className="col-md-4 offset-md-2 px-3">
                 <div className="card">
                   <img
                     className="card-img-top"
