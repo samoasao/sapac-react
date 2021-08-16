@@ -66,12 +66,6 @@ const PastShows = () => {
             Vail Theatre of the Arts requires that all audience members wear
             masks inside the venue.
           </p>
-
-          <TicketButton
-            ticketURL={"/tickets"}
-            text="Buy Tickets"
-            newWindow={false}
-          />
         </ShowCard>
         <ShowCard
           image={newWorld}
