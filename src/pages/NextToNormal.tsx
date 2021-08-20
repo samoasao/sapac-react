@@ -8,7 +8,7 @@ import dennis_img from "../images/ntn/Dennis.jpeg";
 import xander_img from "../images/ntn/xander_mason.jpeg";
 import liz_c_img from "../images/ntn/Liz_Cracchiolo.png";
 import liz_s_img from "../images/ntn/Liz_Spencer.jpeg";
-import annette_img from "../images/ntn/Annette_Tilman.jpeg";
+import annette_img from "../images/ntn/Annette_Hillman.jpeg";
 import matt_img from "../images/ntn/Matthew_Holter.png";
 import logo from "../images/nextToNormalLogo.png";
 
@@ -73,7 +73,7 @@ const NextToNormal = () => {
         <div className="row">
           <div className="offset-lg-1 col-lg-10 ">
             <h2>Creative Team</h2>
-            <Bio name="Annette Tillman (Director)" image={annette_img}>
+            <Bio name="Annette Hillman (Director)" image={annette_img}>
               received her BA in Theatre at California State University at Long
               Beach (go 49’rs!) and her MFA in Theatre from Purdue University
               (go Boilermakers!). She apprenticed at Actors Theater of
@@ -88,10 +88,24 @@ const NextToNormal = () => {
               fingers crossed and masks on, she will appear in RUMOURS at Live
               Theatre Workshop as the tormented Cookie.
             </Bio>
-            <Bio
-              name="Elizabeth Spencer (Music Director)"
-              image={liz_s_img}
-            ></Bio>
+            <Bio name="Elizabeth Spencer (Music Director)" image={liz_s_img}>
+              is originally from Chicago, Illinois (BS in Music Education from
+              the University of Illinois, Champaign-Urbana) and spent 30 years
+              in Tucson working at the University of Arizona - ART, the Arizona
+              Theatre Company, (Emma, Xanadu, The Music Man and music directing
+              many productions for SOS – their summer youth theatre program),
+              Arizona Onstage Productions and the Tucson Arizona Boys Chorus,
+              among others) before moving to Phoenix 7 years ago. While in
+              Phoenix, she performed with Arizona Broadway Theatre, Phoenix
+              Theatre and other area theatre companies, as well as music
+              directing productions at the Hale Theatre, Desert Stages Theatre
+              and the Black Theatre Troupe. She has played for the National
+              Tours of Wicked, West Side Story, Legally Blonde, The Wizard of
+              Oz, Annie, Beautiful, An American In Paris, and The Little
+              Mermaid. Liz and her husband Tom have recently moved back to
+              Tucson and she is very excited to be returning to the Tucson
+              theatre community.
+            </Bio>
           </div>
         </div>
         <div className="row">

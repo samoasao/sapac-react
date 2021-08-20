@@ -16,7 +16,6 @@ import NextToNormal from "../pages/NextToNormal"
 
 const MainContainer = () => {
     return (
-
         <Switch>
             <Route exact path="/">
                 <Home />
