@@ -47,7 +47,7 @@ const Tickets = () => {
                       <p>$22.50 - $29.50</p>
                       <p className="font-weight-bold">
                         Scoundrel and Scamp Theatre requires that all audience
-                        members wear masks inside the venue.
+                        members wear masks inside the venue.  Because of the limited seating of the theater, there will not be social distancing of seats.
                       </p>
                     </div>
                     <TicketButton
