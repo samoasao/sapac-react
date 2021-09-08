@@ -23,41 +23,8 @@ const Tickets = () => {
             </p>
             <div className="row">
                 
-              <div className="col-md-4 offset-md-2 px-3">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={nextToNormalLogo}
-                    alt="Card cap"
-                  />
-                  <div className="card-body">
-                    <div className="card-text pb-2">
-                      <p>
-                        <strong>Scoundrel and Scamp Theatre </strong> <br />
-                        @ the Historic Y <br />
-                        738 N 5th Ave. <br />
-                        Tucson, AZ 85705 <br />
-                      </p>
-                      <p>
-                        August 20th - 22nd
-                        <br />
-                        August 27th - 29th
-                        <br />
-                      </p>
-                      <p>$22.50 - $29.50</p>
-                      <p className="font-weight-bold">
-                        Scoundrel and Scamp Theatre requires that all audience
-                        members wear masks inside the venue.  Because of the limited seating of the theater, there will not be social distancing of seats.
-                      </p>
-                    </div>
-                    <TicketButton
-                      text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
-                    ></TicketButton>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
+              
+              <div className="col-md-4 offset-md-4">
                 <div className="card">
                   <img
                     className="card-img-top m"
