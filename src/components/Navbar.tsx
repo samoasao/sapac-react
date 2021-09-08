@@ -14,10 +14,6 @@ const links = [
         dropdowns: [
             [
                 {
-                    title: 'Next To Normal',
-                    url: '/ntn'
-                },
-                {
                     title: 'Nunsense',
                     url: '/#nunsense'
                 },

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/SAPAClogo.png";
-import nextToNormalLogo from "../images/nextToNormalLogo.png";
 import nunsenseLogo from "../images/nunsenseLogo.png";
 import ShowCard from "../components/ShowCard";
 import TicketButton from "../components/TicketButton";
@@ -67,69 +66,7 @@ const Home = () => {
 
       <section className="event py-5 p-3 px-md-5 " id={"events"}>
         <h1 className="text-left mb-5">Events</h1>
-        <ShowCard
-          image={nextToNormalLogo}
-          showInfoURL="/tickets"
-          title="next to normal"
-          byline="Music by Tom Kitt, Book and Lyrics by Brian Yorkey"
-          location={[
-            "Scoundrel and Scamp Theatre at the Historic Y",
-            "738 N 5th Ave.",
-            "Tucson, AZ 85705",
-          ]}
-          performanceDate={[
-            "August 20th - 22nd",
-            "August 27th - 29th",
-            "Fridays @ 7pm, Saturdays @ 2pm & 7pm, Sundays @ 2pm",
-          ]}
-        >
-          <Link to="/ntn" className="btn btn-info btn-lg">
-            Cast and Creative Team
-          </Link>
-          <hr></hr>
-          <p>
-            <em>Next to Normal</em>, with book and lyrics by Brian Yorkey and
-            music by Tom Kitt, explores how one suburban household copes with
-            crisis and mental illness. Winner of three 2009 Tony Awards,
-            including Best Musical Score and the 2010 Pulitzer Prize, Next to
-            Normal was also chosen as "one of the year's ten best shows" by
-            critics around the country, including The Los Angeles Times, The
-            Washington Post, Rolling Stone and The New York Times.
-          </p>
-          <p>
-            {" "}
-            Dad's an architect; Mom rushes to pack lunches and pour cereal;
-            their daughter and son are bright, wise-cracking teens, appearing to
-            be a typical American family. And yet their lives are anything but
-            normal because the mother has been battling manic depression for 16
-            years. <em>Next to Normal</em> takes audiences into the minds and
-            hearts of each character, presenting their family's story with love,
-            sympathy and heart.
-          </p>
-          <p>
-            {" "}
-            This deeply moving piece of theatre provides a wonderful opportunity
-            for performers to explore dramatic material and showcase vocal
-            talents with an energetic pop/rock score. <em>Next to Normal</em> is
-            an emotional powerhouse that addresses such issues as grieving a
-            loss, ethics in modern psychiatry, and suburban life.
-          </p>
-          <p>Directed by MAC award winning director, Annette Hillman.</p>
-          <p className="font-weight-bold">
-            Some scenes use flashing lights or strobing effect that may affect
-            photosensitive viewers.
-          </p>
-          <p className="font-weight-bold">
-            Scoundrel and Scamp Theatre requires that all audience members wear
-            masks inside the venue.  Because of the limited seating of the theater, there will not be social distancing of seats.
-          </p>
-
-          <TicketButton
-            ticketURL={"/tickets"}
-            text="Buy Tickets"
-            newWindow={false}
-          />
-        </ShowCard>
+        
         <ShowCard
           image={nunsenseLogo}
           showInfoURL="/tickets"
@@ -158,8 +95,7 @@ const Home = () => {
             the money to bury their dearly departed. With catchy songs and
             irreverent comedy and directed by MAC-winning director Samantha
             Cormier, <em>Nunsense</em> is sure to keep audiences rolling with
-            laughter. Presented in a truly immersive way by placing the audience
-            on the stage with the actors!
+            laughter!
           </p>
           <p className="font-weight-bold">
             Audience members are strongly encouraged to wear masks. Performers
