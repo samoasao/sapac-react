@@ -66,7 +66,7 @@ const Home = () => {
 
       <section className="event py-5 p-3 px-md-5 " id={"events"}>
         <h1 className="text-left mb-5">Events</h1>
-        
+
         <ShowCard
           image={nunsenseLogo}
           showInfoURL="/tickets"
@@ -98,12 +98,19 @@ const Home = () => {
             laughter!
           </p>
           <p className="font-weight-bold">
-            Audience members are strongly encouraged to wear masks. Performers
-            will not be masked.
+            Masks will be required to be worn for audience members. Performers
+            will not be masked. Every other row will be blocked off to encourage
+            social distancing.
           </p>
           <TicketButton
             ticketURL={"/tickets"}
             text="Buy Tickets"
+            newWindow={false}
+          />
+          <div className="py-2" />
+          <TicketButton
+            ticketURL={"/desertView"}
+            text="Venue Info and Maps"
             newWindow={false}
           />
         </ShowCard>

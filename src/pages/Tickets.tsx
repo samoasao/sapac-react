@@ -22,8 +22,6 @@ const Tickets = () => {
               </a>
             </p>
             <div className="row">
-                
-              
               <div className="col-md-4 offset-md-4">
                 <div className="card">
                   <img
@@ -45,14 +43,21 @@ const Tickets = () => {
                       </p>
                       <p>$20 - $25</p>
                       <p className="font-weight-bold">
-                        Audience members are strongly encouraged to wear masks.
-                        Performers will not be masked.
+                        Masks will be required to be worn for audience members.
+                        Performers will not be masked. Every other row will be
+                        blocked off to encourage social distancing.
                       </p>
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
                       ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
+                    <div className="py-2" />
+                    <TicketButton
+                      ticketURL={"/desertView"}
+                      text="Venue Info and Maps"
+                      newWindow={false}
+                    />
                   </div>
                 </div>
               </div>
