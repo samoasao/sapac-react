@@ -13,6 +13,7 @@ import SupportCorporate from "../pages/SupportCorporate"
 import ForeverPlaid from "../pages/PastShows/ForeverPlaid"
 import NextToNormal from "../pages/NextToNormal"
 import DesertView from "../pages/Venues/DesertView"
+import PlaidTidings from "../pages/PlaidTidings"
 
 
 const MainContainer = () => {
@@ -53,6 +54,9 @@ const MainContainer = () => {
             </Route>
             <Route path="/ntn">
                 <NextToNormal />
+            </Route>
+            <Route path="/plaidTidings">
+                <PlaidTidings />
             </Route>
         </Switch>
     )

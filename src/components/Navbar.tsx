@@ -14,6 +14,10 @@ const links = [
         dropdowns: [
             [
                 {
+                    title: 'Forever Plaid: Plaid Tidings',
+                    url: '/#events'
+                },
+                {
                     title: 'Past Shows',
                     url: '/past-shows'
                 },

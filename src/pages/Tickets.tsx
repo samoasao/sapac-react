@@ -1,6 +1,5 @@
 import { Fragment } from "react";
-import nextToNormalLogo from "../images/nextToNormalLogo.png";
-import nunsenseLogo from "../images/nunsenseLogo.png";
+import plaidTidingsLogo from "../images/PlaidTidingsLogo.png";
 
 import TicketButton from "../components/TicketButton";
 const Tickets = () => {
@@ -11,7 +10,7 @@ const Tickets = () => {
           <div className="card-body">
             <h2 className="card-title">Tickets</h2>
 
-            <p>
+            {/* <p>
               Tickets for all productions are available through{" "}
               <a
                 href="https://www.tix.com/ticket-sales/SAPAC/6126"
@@ -20,13 +19,13 @@ const Tickets = () => {
               >
                 tix.com
               </a>
-            </p>
+            </p> */}
             <div className="row">
-              <div className="col-md-4 offset-md-4">
+              <div className="col-md-4 offset-md-2">
                 <div className="card">
                   <img
                     className="card-img-top m"
-                    src={nunsenseLogo}
+                    src={plaidTidingsLogo}
                     alt="Card cap"
                   />
                   <div className="card-body">
@@ -38,10 +37,10 @@ const Tickets = () => {
                         <br />
                       </p>
                       <p>
-                        September 24th - 26th <br />
-                        October 1st - 3rd <br />
+                        December 4th @ 7pm <br />
+                        December 5th @ 2pm <br />
                       </p>
-                      <p>$20 - $25</p>
+                      <p>$22 - $25</p>
                       <p className="font-weight-bold">
                         Masks will be required to be worn for audience members.
                         Performers will not be masked. Every other row will be
@@ -49,8 +48,8 @@ const Tickets = () => {
                       </p>
                     </div>
                     <TicketButton
-                      text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
+                      text="Purchase Tickets for Desert View"
+                      ticketURL=" https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
                     <div className="py-2" />
                     <TicketButton
@@ -58,6 +57,42 @@ const Tickets = () => {
                       text="Venue Info and Maps"
                       newWindow={false}
                     />
+                    <div className="py-2" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card">
+                  <img
+                    className="card-img-top m"
+                    src={plaidTidingsLogo}
+                    alt="Card cap"
+                  />
+                  <div className="card-body">
+                    <div className="card-text pb-2">
+                      <p>
+                        <strong>CPAC</strong> <br />
+                        1250 W Continental Rd. <br />
+                        Green Valley, AZ 85622
+                        <br />
+                      </p>
+                      <p>
+                        December 17th @ 3pm & 7pm <br />
+                        December 18th @ 3pm & 7pm <br />
+                      </p>
+                      <p>$25</p>
+                      <p className="font-weight-bold">
+                        Masks will be required to be worn for audience members.
+                        Performers will not be masked. Every other row will be
+                        blocked off to encourage social distancing.
+                      </p>
+                    </div>
+                    <TicketButton
+                      text="Purchase Tickets for CPAC"
+                      ticketURL="https://performingartscenter.thundertix.com/events/187270"
+                    ></TicketButton>
+                    <div className="py-2" />
                   </div>
                 </div>
               </div>
