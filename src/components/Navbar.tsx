@@ -14,10 +14,6 @@ const links = [
         dropdowns: [
             [
                 {
-                    title: 'Nunsense',
-                    url: '/#nunsense'
-                },
-                {
                     title: 'Past Shows',
                     url: '/past-shows'
                 },
