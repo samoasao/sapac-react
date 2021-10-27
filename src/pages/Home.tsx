@@ -66,25 +66,24 @@ const Home = () => {
 
       <section className="event py-5 p-3 px-md-5 " id={"events"}>
         <h1 className="text-left mb-5">Events</h1>
-
         <ShowCard
           image={plaidTidingsLogo}
           showInfoURL="/plaidTidings"
           title="Forever Plaid: Plaid Tidings"
           byline="Written by Stuart Ross"
           location={[
-            "Desert View Auditorium",
-            "4101 E Valencia Rd",
-            "Tucson, AZ 85706",
+            "Cabaret Theatre at Arizona Theatre Company",
+            "330 S Scott Ave.",
+            "Tucson, AZ 85701",
             " ",
             "CPAC",
             "1250 W Continental Rd",
             "Green Valley, AZ 85622",
           ]}
           performanceDate={[
-            "Desert View Auditorium: ",
-            "December 4th, 2021 @ 7pm",
-            "December 5th, 2021 @ 2pm",
+            "Cabaret Theatre at Arizona Theatre Company:",
+            "December 4th, 2021 @ 3pm & 7pm",
+            "December 5th, 2021 @ 3pm ",
             " ",
             "CPAC:",
             "December 17th, 2021 @ 3pm & 7pm",
@@ -97,7 +96,7 @@ const Home = () => {
           <Link to="/tickets" className="btn btn-secondary btn-lg">
             Purchase Tickets
           </Link>
-          <div className="py-1"/>
+          <div className="py-1" />
           {/* <Link to="/plaidTidings" className="btn btn-info btn-lg">
             Cast and Creative Team
           </Link> */}
@@ -148,7 +147,6 @@ const Home = () => {
               *Rows will be blocked off to encourage social distancing*
             </strong>
           </p>
-          
         </ShowCard>
       </section>
     </React.Fragment>

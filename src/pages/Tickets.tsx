@@ -31,14 +31,14 @@ const Tickets = () => {
                   <div className="card-body">
                     <div className="card-text pb-2">
                       <p>
-                        <strong>Desert View High School</strong> <br />
-                        4101 E Valencia Rd. <br />
-                        Tucson, AZ 85706
+                        <strong>Cabaret Theatre at Arizona Theatre Company</strong> <br />
+                        330 S Scott Ave. <br />
+                        Tucson, AZ 85701
                         <br />
                       </p>
                       <p>
-                        December 4th @ 7pm <br />
-                        December 5th @ 2pm <br />
+                        December 4th @ 3pm & 7pm<br />
+                        December 5th @ 3pm <br />
                       </p>
                       <p>$22 - $25</p>
                       <p className="font-weight-bold">
@@ -48,16 +48,9 @@ const Tickets = () => {
                       </p>
                     </div>
                     <TicketButton
-                      text="Purchase Tickets for Desert View"
+                      text="Purchase Tickets for Cabaret Theatre @ ATC"
                       ticketURL=" https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
-                    <div className="py-2" />
-                    <TicketButton
-                      ticketURL={"/desertView"}
-                      text="Venue Info and Maps"
-                      newWindow={false}
-                    />
-                    <div className="py-2" />
                   </div>
                 </div>
               </div>
