@@ -1,16 +1,17 @@
-import { Fragment } from 'react'
+import { Fragment } from "react";
 const Auditions = () => {
+  return (
+    <Fragment>
+      <section className="about py-5 p-3 px-md-auto">
+        <div className="card">
+          <div className="card-body">
+            <h2 className="card-title">Auditions</h2>
 
-    return (
-        <Fragment>
-            <section className="about py-5 p-3 px-md-auto">
-
-                <div className="card">
-                    <div className="card-body">
-                        <h2 className="card-title">Auditions</h2>
-
-                        <h3>Auditions for upcoming productions will be posted here when they are available.</h3>
-                        {/* <p>
+            <p>
+              Auditions for upcoming productions will be posted here when they
+              are available.
+            </p>
+            {/* <p>
                             Please fill out <a href="https://forms.gle/KGQdR5FCYoziG8tZ7" target="blank"> this google form </a>and
       attach a video and resume. Anyone age 17 and older may sign up. We are looking for a quartet of males who can:
     </p>
@@ -57,12 +58,11 @@ const Auditions = () => {
                             An honorarium will be provided for all performers.
     </p> 
 
-                        <a className="btn btn-lg btn-dark" href="https://forms.gle/KGQdR5FCYoziG8tZ7" target="blank">Sign up to Audition!</a>
-                    </div> */}
-                </div>
-
-            </section>
-        </Fragment>
-    )
-}
+                        <a className="btn btn-lg btn-dark" href="https://forms.gle/KGQdR5FCYoziG8tZ7" target="blank">Sign up to Audition!</a>*/}
+          </div>
+        </div>
+      </section>
+    </Fragment>
+  );
+};
 export default Auditions;
