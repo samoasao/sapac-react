@@ -97,9 +97,9 @@ const Home = () => {
             Purchase Tickets
           </Link>
           <div className="py-1" />
-          {/* <Link to="/plaidTidings" className="btn btn-info btn-lg">
+          <Link to="/plaidTidings" className="btn btn-info btn-lg">
             Cast and Creative Team
-          </Link> */}
+          </Link>
           <hr></hr>
           <p>
             <em>Forever Plaid: Plaid Tidings</em> is a brand new show that

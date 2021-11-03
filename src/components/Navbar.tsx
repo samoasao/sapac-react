@@ -15,7 +15,7 @@ const links = [
             [
                 {
                     title: 'Forever Plaid: Plaid Tidings',
-                    url: '/#events'
+                    url: '/plaidTidings'
                 },
                 {
                     title: 'Past Shows',

@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import plaidTidingsLogo from "../images/PlaidTidingsLogo.png";
 
 import TicketButton from "../components/TicketButton";
+import { Link } from "react-router-dom";
 const Tickets = () => {
   return (
     <Fragment>
@@ -31,16 +32,25 @@ const Tickets = () => {
                   <div className="card-body">
                     <div className="card-text pb-2">
                       <p>
-                        <strong>Cabaret Theatre at Arizona Theatre Company</strong> <br />
+                        <strong>
+                          Cabaret Theatre at Arizona Theatre Company
+                        </strong>{" "}
+                        <br />
                         330 S Scott Ave. <br />
                         Tucson, AZ 85701
                         <br />
                       </p>
                       <p>
-                        December 4th @ 3pm & 7pm<br />
+                        December 4th @ 3pm & 7pm
+                        <br />
                         December 5th @ 3pm <br />
                       </p>
                       <p>$22 - $25</p>
+                      <p>
+                        <Link to="/plaidTidings" className="btn btn-info">
+                          Cast and Creative Team
+                        </Link>
+                      </p>
                       <p className="font-weight-bold">
                         Masks will be required to be worn for audience members.
                         Performers will not be masked. Every other row will be
@@ -75,6 +85,11 @@ const Tickets = () => {
                         December 18th @ 3pm & 7pm <br />
                       </p>
                       <p>$25</p>
+                      <p>
+                        <Link to="/plaidTidings" className="btn btn-info">
+                          Cast and Creative Team
+                        </Link>
+                      </p>
                       <p className="font-weight-bold">
                         Masks will be required to be worn for audience members.
                         Performers will not be masked. Every other row will be
