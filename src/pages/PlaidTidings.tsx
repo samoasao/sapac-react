@@ -37,7 +37,7 @@ const PlaidTidings = () => {
             </div>
           </div>
           <div className="row text-center">
-            <div className="offset-sm-2 col-sm-8">
+            <div className="offset-md-3 col-md-6 text-justify">
               <p>
                 <em>Forever Plaid: Plaid Tidings</em> is a brand new show that
                 offers the best of Forever Plaid, tied up in a nifty package
