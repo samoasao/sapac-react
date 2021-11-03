@@ -9,7 +9,7 @@ const Auditions = () => {
                     <div className="card-body">
                         <h2 className="card-title">Auditions</h2>
 
-                        <h3>Upcoming Auditions Will Be Posted Here</h3>
+                        <h3>Auditions for upcoming productions will be posted here when they are available.</h3>
                         {/* <p>
                             Please fill out <a href="https://forms.gle/KGQdR5FCYoziG8tZ7" target="blank"> this google form </a>and
       attach a video and resume. Anyone age 17 and older may sign up. We are looking for a quartet of males who can:
