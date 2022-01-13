@@ -2,6 +2,7 @@ import React from "react";
 import ShowCard from "../../components/ShowCard";
 
 import PlaidTidingsSC from "../../components/ShowCards/PlaidTidingsSC";
+import NunsenseSC from "../../components/ShowCards/NunsenseSC";
 
 import plaidLogo from "./images/plaid/PlaidLogo.png";
 import Logo_1776 from "../../images/promos/1776.png";
@@ -11,8 +12,7 @@ import HotMikadoLogo from "../../images/promos/Hot_Mikado.png";
 import newWorld from "../../images/promos/NewWorld.png";
 
 import nextToNormalLogo from "./images/ntn/nextToNormalLogo.png";
-import nunsenseLogo from "../../images/promos/nunsenseLogo.png";
-import TicketButton from "../../components/TicketButton";
+
 import { Link } from "react-router-dom";
 
 const PastShows = () => {
@@ -20,86 +20,7 @@ const PastShows = () => {
     <React.Fragment>
       <section className="event py-5 p-3 px-md-5 " id="events">
         <PlaidTidingsSC />
-        <ShowCard
-          image={nunsenseLogo}
-          showInfoURL="/tickets"
-          title="Nunsense"
-          byline="Written by Dan Goggin"
-          location={[
-            "Desert View High School",
-            "4101 E Valencia Rd.",
-            "Tucson, AZ 85706",
-          ]}
-          performanceDate={[
-            "September 24th - 26th",
-            "October 1st - 3rd",
-            "Fridays @ 7pm, Saturdays @ 2pm and 7pm, Sundays @ 2pm",
-          ]}
-        >
-          <hr id="nunsense"></hr>
-          <p>
-            <em>Nunsense</em> is a hilarious spoof about the misadventures of
-            five nuns trying to manage a fundraiser. Sadly, the rest of the
-            sisterhood died from poisoning after eating vichyssoise prepared by
-            Sister Julia Child of God. Thus, the remaining nuns – ballet-loving
-            Sister Leo, street-wise Sister Robert Anne, befuddled Sister Mary
-            Amnesia, the Mother Superior Sister Regina, and mistress of the
-            novices Sister Mary Hubert – stage a talent show in order to raise
-            the money to bury their dearly departed. With catchy songs and
-            irreverent comedy and directed by MAC-winning director Samantha
-            Cormier, <em>Nunsense</em> is sure to keep audiences rolling with
-            laughter!
-          </p>
-        </ShowCard>
-        <ShowCard
-          image={nextToNormalLogo}
-          showInfoURL="/tickets"
-          title="next to normal"
-          byline="Music by Tom Kitt, Book and Lyrics by Brian Yorkey"
-          location={[
-            "Scoundrel and Scamp Theatre at the Historic Y",
-            "738 N 5th Ave.",
-            "Tucson, AZ 85705",
-          ]}
-          performanceDate={[
-            "August 20th - 22nd",
-            "August 27th - 29th",
-            "Fridays @ 7pm, Saturdays @ 2pm & 7pm, Sundays @ 2pm",
-          ]}
-        >
-          <Link to="/ntn" className="btn btn-info btn-lg">
-            Cast and Creative Team
-          </Link>
-          <hr></hr>
-          <p>
-            <em>Next to Normal</em>, with book and lyrics by Brian Yorkey and
-            music by Tom Kitt, explores how one suburban household copes with
-            crisis and mental illness. Winner of three 2009 Tony Awards,
-            including Best Musical Score and the 2010 Pulitzer Prize, Next to
-            Normal was also chosen as "one of the year's ten best shows" by
-            critics around the country, including The Los Angeles Times, The
-            Washington Post, Rolling Stone and The New York Times.
-          </p>
-          <p>
-            {" "}
-            Dad's an architect; Mom rushes to pack lunches and pour cereal;
-            their daughter and son are bright, wise-cracking teens, appearing to
-            be a typical American family. And yet their lives are anything but
-            normal because the mother has been battling manic depression for 16
-            years. <em>Next to Normal</em> takes audiences into the minds and
-            hearts of each character, presenting their family's story with love,
-            sympathy and heart.
-          </p>
-          <p>
-            {" "}
-            This deeply moving piece of theatre provides a wonderful opportunity
-            for performers to explore dramatic material and showcase vocal
-            talents with an energetic pop/rock score. <em>Next to Normal</em> is
-            an emotional powerhouse that addresses such issues as grieving a
-            loss, ethics in modern psychiatry, and suburban life.
-          </p>
-          <p>Directed by MAC award winning director, Annette Hillman.</p>
-        </ShowCard>
+        <NunsenseSC />
         <ShowCard
           image={plaidLogo}
           showInfoURL="/plaid"
