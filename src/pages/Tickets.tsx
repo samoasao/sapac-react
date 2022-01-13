@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import amwLogo from "../images/AMW_Promo.png";
+import amwLogo from "../images/promos/AMW_Promo.png";
 
 import TicketButton from "../components/TicketButton";
 import { Link } from "react-router-dom";

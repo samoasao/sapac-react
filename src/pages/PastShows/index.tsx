@@ -2,16 +2,15 @@ import React from "react";
 import ShowCard from "../../components/ShowCard";
 
 import plaidLogo from "./images/plaid/PlaidLogo.png";
-import Logo_1776 from "../../images/1776.png";
-import Gutenberg from "../../images/Gutenberg_Teaser_logos.png";
-import TitleOfShowLogo from "../../images/title_of_show.png";
-import HotMikadoLogo from "../../images/Hot_Mikado.png";
-import newWorld from "../../images/NewWorld.png";
-import plaidTidingsLogo from "../../images/PlaidTidingsLogo.png";
-import TicketButton from "../../components/TicketButton";
-
+import Logo_1776 from "../../images/promos/1776.png";
+import Gutenberg from "../../images/promos/Gutenberg_Teaser_logos.png";
+import TitleOfShowLogo from "../../images/promos/title_of_show.png";
+import HotMikadoLogo from "../../images/promos/Hot_Mikado.png";
+import newWorld from "../../images/promos/NewWorld.png";
+import plaidTidingsLogo from "../../images/promos/PlaidTidingsLogo.png";
 import nextToNormalLogo from "./images/ntn/nextToNormalLogo.png";
-import nunsenseLogo from "../../images/nunsenseLogo.png";
+import nunsenseLogo from "../../images/promos/nunsenseLogo.png";
+import TicketButton from "../../components/TicketButton";
 import { Link } from "react-router-dom";
 
 const PastShows = () => {

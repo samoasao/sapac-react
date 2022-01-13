@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/SAPAClogo.png";
 import ShowCard from "../components/ShowCard";
-import amwLogo from "../images/AMW_Promo.png";
+import amwLogo from "../images/promos/AMW_Promo.png";
 import TicketButton from "../components/TicketButton";
 
 const Home = () => {
