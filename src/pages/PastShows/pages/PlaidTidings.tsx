@@ -1,16 +1,14 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import Bio from "../components/Bio";
+import Bio from "../../../components/Bio";
 
 import danny_img from "../images/plaidTidings/Danny Plaid Logo.png";
-import ben_img from "../images/plaidTidings/Ben Plaid Logo.png";
 import liam_img from "../images/plaidTidings/Liam Plaid Logo.png";
 import liam_choreographer_img from "../images/plaidTidings/liam_boyd.jpg";
 import topher_img from "../images/plaidTidings/Topher Plaid Logo.png";
 import xander_img from "../images/plaidTidings/Xander Plaid Logo.png";
 import xander_director_img from "../images/plaidTidings/xander_mason.jpeg";
 import alexis_img from "../images/plaidTidings/Alexis Headshot.jpeg";
-import jumping_img from "../images/plaidTidings/Group Jumping Logo.png";
 import logo from "../images/plaidTidings/PlaidTidingsLogo.png";
 
 const PlaidTidings = () => {

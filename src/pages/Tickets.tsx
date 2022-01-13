@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import plaidTidingsLogo from "../images/PlaidTidingsLogo.png";
+import amwLogo from "../images/AMW_Promo.png";
 
 import TicketButton from "../components/TicketButton";
 import { Link } from "react-router-dom";
@@ -22,83 +22,41 @@ const Tickets = () => {
               </a>
             </p> */}
             <div className="row">
-              <div className="col-md-4 offset-md-2">
+              <div className=" col-md-4">
                 <div className="card">
                   <img
                     className="card-img-top m"
-                    src={plaidTidingsLogo}
+                    src={amwLogo}
                     alt="Card cap"
                   />
                   <div className="card-body">
                     <div className="card-text pb-2">
                       <p>
-                        <strong>
-                          Cabaret Theatre at Arizona Theatre Company
-                        </strong>{" "}
+                        <strong>Scoundrel & Scamp Theatre</strong> <br />
+                        738 N. 5th Ave
                         <br />
-                        330 S Scott Ave. <br />
-                        Tucson, AZ 85701
-                        <br />
+                        Sutie 131 in the Historic Y<br />
+                        TUCSON, AZ 85705
                       </p>
                       <p>
-                        December 4th @ 3pm & 7pm
+                        Saturday March 5th, 7pm
+                        <br /> Sunday March 6th, 2pm
                         <br />
-                        December 5th @ 3pm <br />
+                        Friday March 11th, 7pm
+                        <br /> Saturday March 12th, 7pm
+                        <br />
+                        Sunday March 13th, 2pm
+                        <br />
                       </p>
-                      <p>$22 - $25</p>
-                      <p>
-                        <Link to="/plaidTidings" className="btn btn-info">
-                          Cast and Creative Team
-                        </Link>
-                      </p>
+                      <p>$25-$29.50</p>
                       <p className="font-weight-bold">
-                        Masks will be required to be worn for audience members.
-                        Performers will not be masked. Every other row will be
-                        blocked off to encourage social distancing.
+                        Must show vaccination card or negative COVID test in
+                        past 72 hours and must wear mask inside of theatre
                       </p>
                     </div>
                     <TicketButton
-                      text="Purchase Tickets for Cabaret Theatre @ ATC"
-                      ticketURL=" https://www.tix.com/ticket-sales/SAPAC/6126"
-                    ></TicketButton>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card">
-                  <img
-                    className="card-img-top m"
-                    src={plaidTidingsLogo}
-                    alt="Card cap"
-                  />
-                  <div className="card-body">
-                    <div className="card-text pb-2">
-                      <p>
-                        <strong>CPAC</strong> <br />
-                        1250 W Continental Rd. <br />
-                        Green Valley, AZ 85622
-                        <br />
-                      </p>
-                      <p>
-                        December 17th @ 3pm & 7pm <br />
-                        December 18th @ 3pm & 7pm <br />
-                      </p>
-                      <p>$25</p>
-                      <p>
-                        <Link to="/plaidTidings" className="btn btn-info">
-                          Cast and Creative Team
-                        </Link>
-                      </p>
-                      <p className="font-weight-bold">
-                        Masks will be required to be worn for audience members.
-                        Performers will not be masked. Every other row will be
-                        blocked off to encourage social distancing.
-                      </p>
-                    </div>
-                    <TicketButton
-                      text="Purchase Tickets for CPAC"
-                      ticketURL="https://performingartscenter.thundertix.com/events/187270"
+                      text="Purchase Tickets"
+                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
                     <div className="py-2" />
                   </div>
@@ -117,10 +75,8 @@ const Tickets = () => {
                   credit to a future SAPAC show.
                 </p>
                 <p>
-                  Furthermore, if we feel that anyone is attending a show and
-                  might compromise the health of others then we will ask that
-                  patron to leave with a full refund or a credit to a future
-                  show.
+                  Furthermore, patrons will be asked to show a vaccination card
+                  or negative COVID test in past 72 hours to enter our venues.
                 </p>
                 <p>
                   Performers for our shows will NOT be masked and all cast and
@@ -129,8 +85,7 @@ const Tickets = () => {
                 <p>
                   We have a great season of theater coming up and we want
                   everyone to stay safe and also feel comfortable coming to
-                  enjoy live theater again. If you have not been vaccinated, we
-                  encourage you to do so.
+                  enjoy live theater again.
                 </p>
                 <p>
                   Thank you for your understanding and cooperation while we

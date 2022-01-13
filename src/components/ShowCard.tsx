@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 type ShowCardProps = {
   image: string;
   title: string;
-  byline: string;
+  byline: string | string[];
   location: string | string[];
   performanceDate: string | string[];
   ticketURL?: string;
@@ -58,7 +58,7 @@ class ShowCard extends React.Component<ShowCardProps> {
         </div>
         <div className="col-md-7 py-2">
           <h2 className="mt-0 pt-2">{this.getLink(this.props.title)}</h2>
-          <p className="byline">{this.props.byline}</p>
+          <p className="byline">{this.getList(this.props.byline, "byline")}</p>
           {this.getList(this.props.location, "location")}
           {this.getList(this.props.performanceDate, "performance-date")}
 

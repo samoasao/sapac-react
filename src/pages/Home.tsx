@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/SAPAClogo.png";
 import ShowCard from "../components/ShowCard";
-import plaidTidingsLogo from "../images/PlaidTidingsLogo.png";
+import amwLogo from "../images/AMW_Promo.png";
 import TicketButton from "../components/TicketButton";
 
 const Home = () => {
@@ -67,85 +67,59 @@ const Home = () => {
       <section className="event py-5 p-3 px-md-5 " id={"events"}>
         <h1 className="text-left mb-5">Events</h1>
         <ShowCard
-          image={plaidTidingsLogo}
-          showInfoURL="/plaidTidings"
-          title="Forever Plaid: Plaid Tidings"
-          byline="Written by Stuart Ross"
+          image={amwLogo}
+          title="A Minister's Wife"
+          byline={[
+            "Book by Austin Pendelton",
+            "Music by Joshua Schmidt",
+            "Lyrics by Jan Levy Tranen",
+            "Based on the Play Candida by George Bernard Shaw",
+          ]}
           location={[
-            "Cabaret Theatre at Arizona Theatre Company",
-            "330 S Scott Ave.",
-            "Tucson, AZ 85701",
-            " ",
-            "CPAC",
-            "1250 W Continental Rd",
-            "Green Valley, AZ 85622",
+            "Scoundrel & Scamp Theatre",
+            "738 N. 5th Ave",
+            "Sutie 131 in the Historic Y",
+            "TUCSON, AZ 85705",
           ]}
           performanceDate={[
-            "Cabaret Theatre at Arizona Theatre Company:",
-            "December 4th, 2021 @ 3pm & 7pm",
-            "December 5th, 2021 @ 3pm ",
-            " ",
-            "CPAC:",
-            "December 17th, 2021 @ 3pm & 7pm",
-            "December 18th, 2021 @ 3pm & 7pm",
+            "Saturday March 5th, 7pm",
+            "Sunday March 6th, 2pm",
+            "Friday March 11th, 7pm",
+            "Saturday March 12th, 7pm",
+            "Sunday March 13th, 2pm",
           ]}
         >
-          {/* <Link to="/plaid" className="btn btn-info btn-lg">
-            Cast and Creative Team
-          </Link> */}
-          <Link to="/tickets" className="btn btn-secondary btn-lg">
-            Purchase Tickets
-          </Link>
           <div className="py-1" />
-          <Link to="/plaidTidings" className="btn btn-info btn-lg">
-            Cast and Creative Team
+          <Link to="/tickets" className="btn btn-info btn-lg">
+            Buy Tickets
           </Link>
           <hr></hr>
           <p>
-            <em>Forever Plaid: Plaid Tidings</em> is a brand new show that
-            offers the best of Forever Plaid, tied up in a nifty package with a
-            big Christmas bow on top! Filled with Christmas standards that have
-            all been "Plaid-erized," our boys are back to do their Christmas
-            Special.
+            Hailed by the Associated Press as “a jewel of a musical” and by The
+            Wall Street Journal as “the most important new musical to come to
+            New York since The Light in the Piazza,” A MINISTER'S WIFE is a true
+            hidden gem in the musical theater repertoire.
           </p>
           <p>
-            At first, Frankie, Jinx, Smudge and Sparky aren't sure why they've
-            returned to Earth for another posthumous performance, but a phone
-            call from the heavenly Rosemary Clooney lets them know that they're
-            needed to put a little harmony into a discordant world. Sprinkled
-            among the Christmas offerings are audience favorites, like their
-            riotous three-minute-and-eleven-second version of The Ed Sullivan
-            Show – this time, featuring the Rockettes, the Chipmunks and The
-            Vienna Boys Choir, as well as a Plaid Caribbean Christmas that puts
-            the "Day-O" in Excelsis!
+            Based on a 1898 version of George Bernard Shaw's Candida A
+            MINISTER'S WIFE explores the fires burning beneath the surface of a
+            seemingly ordinary marriage; the Revered James Morell and his wife,
+            Candida, are happily married - or at least they think - until a
+            romantic young poet, Marchbanks, enters their life. Featuring music
+            by Joshua Schmidt, lyrics by Jan Levy Tranen and a book by Austin
+            Pendleton, A MINISTER'S WIFE is rich, romantic and daring. Its
+            finale is one of the best pieces of music in the repertoire that
+            will leave you breathless.
           </p>
           <p>
-            This truly "heaven-sent" holiday treat will lift audiences' spirits
-            and fill them with nostalgia for a bygone era of classic music sung
-            in perfect harmony.
+            Starring local Tucson favorites Jodi Darling (Candida), Jeremy Vega
+            (Eugene Marshbanks), Dennis Tamblyn (James Morrel) and Kate Scally
+            (Prossy Garnett) along with Tucson new-comer Steven Wright (Lexy
+            Mill), this beautiful show is directed by Susan Stokes with musical
+            direction by Elizabeth Spencer.
           </p>
           <p>
-            The cast includes the original productions' very talented cast of
-            Xander Mason, Topher Esguerra, Liam Boyd and Danny Fapp.
-          </p>
-          <p>
-            Put yourself in the holiday mood and see this show that will fill
-            your hearts with joy, laughter and music!
-          </p>
-          <p>
-            Directed by Xander Mason
-            <br />
-            Music Direction by Alexis Burrows
-            <br />
-            Choreography by Liam Boyd
-          </p>
-          <p>
-            <strong>*Masks must be worn for the performance*</strong>
-          </p>
-          <p>
-            <strong>
-              *Rows will be blocked off to encourage social distancing*
-            </strong>
+            <strong>*Must show vaccination card or negative COVID test in past 72 hours and must wear mask inside of theatre*</strong>
           </p>
         </ShowCard>
       </section>
