@@ -58,6 +58,11 @@ const Tickets = () => {
                       text="Purchase Tickets"
                       ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
                     ></TicketButton>
+                    <br /><br />
+                    <TicketButton
+                      text="Map and Directions"
+                      ticketURL="https://www.google.com/maps/place/The+Historic+Y/@32.2313653,-110.9668739,17z/data=!3m1!4b1!4m5!3m4!1s0x86d6711bc7e79a6b:0x7eea8949e1ad880!8m2!3d32.2313653!4d-110.9668739"
+                    ></TicketButton>
                     <div className="py-2" />
                   </div>
                 </div>
