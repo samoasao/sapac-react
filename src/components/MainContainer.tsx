@@ -11,7 +11,7 @@ import Founders from "../pages/Founders";
 import Contact from "../pages/Contact";
 import SupportIndividual from "../pages/SupportIndividual";
 import SupportCorporate from "../pages/SupportCorporate";
-import ForeverPlaid from "../pages/PastShows/ForeverPlaid";
+import ForeverPlaid from "../pages/PastShows/pages/ForeverPlaid";
 import NextToNormal from "../pages/PastShows/pages/NextToNormal";
 import DesertView from "../pages/Venues/DesertView";
 import PlaidTidings from "../pages/PastShows/pages/PlaidTidings";
