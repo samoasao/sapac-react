@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import Bio from "../components/Bio";
+import Bio from "../../../components/Bio";
 
 import daniel_img from "../images/ntn/Daniel.jpeg";
 import allie_img from "../images/ntn/Allie.jpeg";
@@ -10,7 +10,7 @@ import liz_c_img from "../images/ntn/Liz_Cracchiolo.png";
 import liz_s_img from "../images/ntn/Liz_Spencer.jpeg";
 import annette_img from "../images/ntn/Annette_Hillman.jpeg";
 import matt_img from "../images/ntn/Matthew_Holter.png";
-import logo from "../images/nextToNormalLogo.png";
+import logo from "../images/ntn/nextToNormalLogo.png";
 
 const NextToNormal = () => {
   return (

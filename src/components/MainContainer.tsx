@@ -12,7 +12,7 @@ import Contact from "../pages/Contact";
 import SupportIndividual from "../pages/SupportIndividual";
 import SupportCorporate from "../pages/SupportCorporate";
 import ForeverPlaid from "../pages/PastShows/ForeverPlaid";
-import NextToNormal from "../pages/NextToNormal";
+import NextToNormal from "../pages/PastShows/pages/NextToNormal";
 import DesertView from "../pages/Venues/DesertView";
 import PlaidTidings from "../pages/PastShows/pages/PlaidTidings";
 

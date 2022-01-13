@@ -10,7 +10,7 @@ import newWorld from "../../images/NewWorld.png";
 import plaidTidingsLogo from "../../images/PlaidTidingsLogo.png";
 import TicketButton from "../../components/TicketButton";
 
-import nextToNormalLogo from "../../images/nextToNormalLogo.png";
+import nextToNormalLogo from "./images/ntn/nextToNormalLogo.png";
 import nunsenseLogo from "../../images/nunsenseLogo.png";
 import { Link } from "react-router-dom";
 
