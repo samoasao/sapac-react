@@ -27,9 +27,9 @@ const MinistersWifeSC = () => (
     ]}
   >
     <div className="py-1" />
-    <Link to="/tickets" className="btn btn-info btn-lg">
+    {/* <Link to="/tickets" className="btn btn-info btn-lg">
       Buy Tickets
-    </Link>
+    </Link> */}
     <hr></hr>
     <p>
       Hailed by the Associated Press as “a jewel of a musical” and by The Wall
@@ -55,10 +55,6 @@ const MinistersWifeSC = () => (
       Elizabeth Spencer.
     </p>
     <p>
-      <strong>
-        *Must show vaccination card or negative COVID test in past 72 hours and
-        must wear mask inside of theatre*
-      </strong>
     </p>
   </ShowCard>
 );

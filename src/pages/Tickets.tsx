@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import amwLogo from "../images/promos/AMW_Promo.png";
+import funHomeLogo from "../images/promos/FunHomeWeb.jpeg";
 
 import TicketButton from "../components/TicketButton";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ const Tickets = () => {
           <div className="card-body">
             <h2 className="card-title">Tickets</h2>
 
-            {/* <p>
+            {/*  <p>
               Tickets for all productions are available through{" "}
               <a
                 href="https://www.tix.com/ticket-sales/SAPAC/6126"
@@ -23,15 +23,16 @@ const Tickets = () => {
             </p> */}
             <div className="row">
               <div className=" col-md-4">
-                <div className="card">
+               <div className="card">
                   <img
                     className="card-img-top m"
-                    src={amwLogo}
+                    src={funHomeLogo}
                     alt="Card cap"
                   />
                   <div className="card-body">
                     <div className="card-text pb-2">
-                      <p>
+                    <strong>Tickets and Show Dates Available Soon</strong>
+                      {/* <p>
                         <strong>Scoundrel & Scamp Theatre</strong> <br />
                         738 N. 5th Ave
                         <br />
@@ -52,19 +53,20 @@ const Tickets = () => {
                       <p className="font-weight-bold">
                         Must show vaccination card or negative COVID test in
                         past 72 hours and must wear mask inside of theatre
-                      </p>
+                      </p> */}
                     </div>
-                    <TicketButton
+                    {/* <TicketButton
                       text="Purchase Tickets"
                       ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
-                    ></TicketButton>
-                    <br /><br />
-                    <TicketButton
+                    ></TicketButton> */}
+                    {/* <br />
+                    <br /> */}
+                    {/* <TicketButton
                       text="Map and Directions"
                       ticketURL="https://www.google.com/maps/place/The+Historic+Y/@32.2313653,-110.9668739,17z/data=!3m1!4b1!4m5!3m4!1s0x86d6711bc7e79a6b:0x7eea8949e1ad880!8m2!3d32.2313653!4d-110.9668739"
-                    ></TicketButton>
+                    ></TicketButton> */}
                     <div className="py-2" />
-                  </div>
+                  </div> 
                 </div>
               </div>
             </div>

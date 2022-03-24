@@ -14,7 +14,7 @@ const links = [
     dropdowns: [
       [
         {
-          title: "A Minister's Wife",
+          title: "Fun Home",
           url: "/#events",
         },
         {

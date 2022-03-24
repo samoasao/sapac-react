@@ -10,11 +10,13 @@ import Logo_1776 from "../../images/promos/1776.png";
 import Gutenberg from "../../images/promos/Gutenberg_Teaser_logos.png";
 import TitleOfShowLogo from "../../images/promos/title_of_show.png";
 import HotMikadoLogo from "../../images/promos/Hot_Mikado.png";
+import MinistersWifeSC from "../../components/ShowCards/MinistersWifeSC";
 
 const PastShows = () => {
   return (
     <React.Fragment>
       <section className="event py-5 p-3 px-md-5 " id="events">
+      <MinistersWifeSC />
         <PlaidTidingsSC />
         <NunsenseSC />
         <PlaidSC />
