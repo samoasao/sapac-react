@@ -11,19 +11,25 @@ const FunHomeSC = () => (
       "Book and Lyrics by Lisa Kron",
       "Based on the graphic novel by Alison Bechdel",
     ]}
-    // location={[
-    //   "Scoundrel & Scamp Theatre",
-    //   "738 N. 5th Ave",
-    //   "Sutie 131 in the Historic Y",
-    //   "TUCSON, AZ 85705",
-    // ]}
-    location={[]}
+    location={[
+      "Pima Community College",
+      "Black Box Theatre",
+      "2202 W. Anklam Road",
+      "Tucson, AZ 85709",
+    ]}
     performanceDate={[
-      "Coming Soon",
-      "August 2022 Show Dates TBD",
+      "August 5- 14 2022",
     ]}
   >
     <div className="py-1" />
+    <p>We are currently looking for 3 child actors for this production</p>
+    <a
+              className="btn btn-lg btn-danger"
+              href="https://docs.google.com/forms/d/1z7P7aKQX3TAGKl9y40rT8qU2LrBhcyXSTByK2bRUMkA/"
+              target="blank"
+            >
+             Audition Information
+            </a>
     {/* <Link to="#" className="btn btn-info btn-lg">
       Tickets On Sale Soon
     </Link> */}

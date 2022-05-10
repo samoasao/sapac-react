@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import funHomeLogo from "../images/promos/FunHomeWeb.jpeg";
+import nunsenseLogo from "../images/promos/nunsenseRmLogo.jpeg";
 
 import TicketButton from "../components/TicketButton";
 import { Link } from "react-router-dom";
@@ -21,7 +22,36 @@ const Tickets = () => {
                 tix.com
               </a>
             </p> */}
-            <div className="row">
+            <div className="row justify-content-center">
+            <div className=" col-md-4">
+               <div className="card">
+                  <img
+                    className="card-img-top m"
+                    src={nunsenseLogo}
+                    alt="Card cap"
+                  />
+                  <div className="card-body">
+                    <div className="card-text pb-2">
+                      <p>
+                        <strong>The Gaslight Music Hall</strong> <br />
+                        13005 N Oracle Rd.
+                        <br />
+                        TUCSON, AZ 85739
+                      </p>
+                      <p>
+                        June 5th, 6pm
+                        
+                      </p>
+                    </div>
+                     <TicketButton
+                      text="Purchase Tickets"
+                      ticketURL="https://tix6.centerstageticketing.com/sites/gaslightmusichall6/event-details.php?e=601"
+                    ></TicketButton> 
+                     <br />
+                    <div className="py-2" />
+                  </div> 
+                </div>
+              </div>
               <div className=" col-md-4">
                <div className="card">
                   <img
