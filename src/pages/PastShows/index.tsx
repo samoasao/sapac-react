@@ -12,11 +12,14 @@ import TitleOfShowLogo from "../../images/promos/title_of_show.png";
 import HotMikadoLogo from "../../images/promos/Hot_Mikado.png";
 import MinistersWifeSC from "../../components/ShowCards/MinistersWifeSC";
 
+import NunsenseSCRemount from "../../components/ShowCards/NunsenseSCRemount";
+
 const PastShows = () => {
   return (
     <React.Fragment>
       <section className="event py-5 p-3 px-md-5 " id="events">
-      <MinistersWifeSC />
+        <NunsenseSCRemount />
+        <MinistersWifeSC />
         <PlaidTidingsSC />
         <NunsenseSC />
         <PlaidSC />

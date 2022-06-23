@@ -12,19 +12,9 @@ const Tickets = () => {
           <div className="card-body">
             <h2 className="card-title">Tickets</h2>
 
-            {/*  <p>
-              Tickets for all productions are available through{" "}
-              <a
-                href="https://www.tix.com/ticket-sales/SAPAC/6126"
-                rel="noreferrer"
-                target="_blank"
-              >
-                tix.com
-              </a>
-            </p> */}
             <div className="row justify-content-center">
-            <div className=" col-md-4">
-               <div className="card">
+              <div className=" col-md-4">
+                {/* <div className="card">
                   <img
                     className="card-img-top m"
                     src={nunsenseLogo}
@@ -52,8 +42,8 @@ const Tickets = () => {
                   </div> 
                 </div>
               </div>
-              <div className=" col-md-4">
-               <div className="card">
+              <div className=" col-md-4"> */}
+                <div className="card">
                   <img
                     className="card-img-top m"
                     src={funHomeLogo}
@@ -61,42 +51,22 @@ const Tickets = () => {
                   />
                   <div className="card-body">
                     <div className="card-text pb-2">
-                    <strong>Tickets and Show Dates Available Soon</strong>
-                      {/* <p>
-                        <strong>Scoundrel & Scamp Theatre</strong> <br />
-                        738 N. 5th Ave
-                        <br />
-                        Sutie 131 in the Historic Y<br />
-                        TUCSON, AZ 85705
-                      </p>
                       <p>
-                        Saturday March 5th, 7pm
-                        <br /> Sunday March 6th, 2pm
+                        <strong>Scoundrel & Scamp</strong> <br />
+                        738 N 5th Ave #131
                         <br />
-                        Friday March 11th, 7pm
-                        <br /> Saturday March 12th, 7pm
-                        <br />
-                        Sunday March 13th, 2pm
-                        <br />
+                        Tucson, AZ 85745
                       </p>
-                      <p>$25-$29.50</p>
-                      <p className="font-weight-bold">
-                        Must show vaccination card or negative COVID test in
-                        past 72 hours and must wear mask inside of theatre
-                      </p> */}
+                      <p>August 6-14 2022</p>
                     </div>
-                    {/* <TicketButton
+                    <TicketButton
                       text="Purchase Tickets"
                       ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
-                    ></TicketButton> */}
-                    {/* <br />
-                    <br /> */}
-                    {/* <TicketButton
-                      text="Map and Directions"
-                      ticketURL="https://www.google.com/maps/place/The+Historic+Y/@32.2313653,-110.9668739,17z/data=!3m1!4b1!4m5!3m4!1s0x86d6711bc7e79a6b:0x7eea8949e1ad880!8m2!3d32.2313653!4d-110.9668739"
-                    ></TicketButton> */}
+                    ></TicketButton>
+                    <br />
+
                     <div className="py-2" />
-                  </div> 
+                  </div>
                 </div>
               </div>
             </div>

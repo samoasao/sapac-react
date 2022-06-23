@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/SAPAClogo.png";
 import TicketButton from "../components/TicketButton";
-import MinistersWifeSC from "../components/ShowCards/MinistersWifeSC";
 import FunHomeSC from "../components/ShowCards/FunHomeSC";
-import NunsenseSCRemount from "../components/ShowCards/NunsenseSCRemount";
 
 const Home = () => {
   return (
@@ -67,7 +65,7 @@ const Home = () => {
 
       <section className="event py-5 p-3 px-md-5 " id={"events"}>
         <h1 className="text-left mb-5">Events</h1>
-        <NunsenseSCRemount />
+        
         <FunHomeSC />
       </section>
     </React.Fragment>
