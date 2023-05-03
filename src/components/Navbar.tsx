@@ -14,12 +14,8 @@ const links = [
     dropdowns: [
       [
         {
-          title: "Nunsense",
-          url: "/#nunsense",
-        },
-        {
-          title: "Fun Home",
-          url: "/#funhome",
+          title: "Forever Plaid",
+          url: "/#events",
         },
         {
           title: "Past Shows",

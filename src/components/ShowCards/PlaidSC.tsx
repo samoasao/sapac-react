@@ -1,5 +1,5 @@
 import ShowCard from "../ShowCard";
-import plaidLogo from "../../images/promos/PlaidLogo.png";
+import plaidLogo from "../../images/promos/PlaidMusicHall.jpeg";
 import { Link } from "react-router-dom";
 
 const PlaidSC = () => (
@@ -9,18 +9,17 @@ const PlaidSC = () => (
     title="Forever Plaid"
     byline="Written by Stuart Ross"
     location={[
-      "Vail Theatre of the Arts",
-      "10701 E Mary Ann Cleveland Way",
-      "Tucson, AZ 85747",
+      "Gasslight Music Hall of Oro Valley",
+      "13005 N Oracle Rd #165",
+      "Tucson, AZ 85739",
     ]}
     performanceDate={[
-      "August 12th and 13th, 2021 @ 7pm",
-      "August 14th, 2021 @ 2pm & 7pm",
+      "May 23rd and 24th, 2021 @ 6pm",
     ]}
   >
-    <Link to="/plaid" className="btn btn-info btn-lg">
-      Cast and Creative Team
-    </Link>
+    <a href="https://www.gaslightmusichall.com/post/5-23-5-24-forever-plaid-sapac" target="_blank" className="btn btn-info btn-lg">
+      Tickets
+    </a>
     <hr></hr>
     <p>
       <em>Forever Plaid</em> is one of the most popular and successful musicals

@@ -23,14 +23,14 @@ const ForeverPlaid = () => {
         </div>
         <div className="row text-center">
           <div className="offset-sm-4 col-sm-4 ">
-            <Link to="/tickets" className="btn btn-dark btn-lg">
+            <Link to="https://www.gaslightmusichall.com/post/5-23-5-24-forever-plaid-sapac" className="btn btn-dark btn-lg">
               Tickets and Venue Information
             </Link>
           </div>
         </div>
         <div className="row text-center">
           <div className="offset-sm-4 col-sm-4">
-            <h4>August 12th - 14th</h4>
+            <h4>May 23rd - 24th</h4>
           </div>
         </div>
         <div className="row text-center">
