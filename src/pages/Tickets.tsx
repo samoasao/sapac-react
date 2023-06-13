@@ -1,6 +1,5 @@
 import { Fragment } from "react";
-import funHomeLogo from "../images/promos/FunHomeWeb.jpeg";
-import nunsenseLogo from "../images/promos/nunsenseRmLogo.jpeg";
+import meanGirlsLogo from "../images/promos/MeanGirlsTix3x2.png";
 
 import TicketButton from "../components/TicketButton";
 import { Link } from "react-router-dom";
@@ -14,50 +13,21 @@ const Tickets = () => {
 
             <div className="row justify-content-center">
               <div className=" col-md-4">
-                {/* <div className="card">
-                  <img
-                    className="card-img-top m"
-                    src={nunsenseLogo}
-                    alt="Card cap"
-                  />
-                  <div className="card-body">
-                    <div className="card-text pb-2">
-                      <p>
-                        <strong>The Gaslight Music Hall</strong> <br />
-                        13005 N Oracle Rd.
-                        <br />
-                        TUCSON, AZ 85739
-                      </p>
-                      <p>
-                        June 5th, 6pm
-                        
-                      </p>
-                    </div>
-                     <TicketButton
-                      text="Purchase Tickets"
-                      ticketURL="https://tix6.centerstageticketing.com/sites/gaslightmusichall6/event-details.php?e=601"
-                    ></TicketButton> 
-                     <br />
-                    <div className="py-2" />
-                  </div> 
-                </div>
-              </div>
-              <div className=" col-md-4"> */}
                 <div className="card">
                   <img
                     className="card-img-top m"
-                    src={funHomeLogo}
+                    src={meanGirlsLogo}
                     alt="Card cap"
                   />
                   <div className="card-body">
                     <div className="card-text pb-2">
                       <p>
-                        <strong>Scoundrel & Scamp</strong> <br />
-                        738 N 5th Ave #131
+                        <strong>Berger Performing Arts Center</strong> <br />
+                        1200 W Speedway Blvd.
                         <br />
                         Tucson, AZ 85745
                       </p>
-                      <p>August 6-14 2022</p>
+                      <p>July 14-16 2023</p>
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
