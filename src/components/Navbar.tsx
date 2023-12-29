@@ -14,7 +14,7 @@ const links = [
     dropdowns: [
       [
         {
-          title: "Mean Girls",
+          title: "Alice By Heart",
           url: "/#events",
         },
         {

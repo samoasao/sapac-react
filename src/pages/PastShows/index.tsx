@@ -14,11 +14,13 @@ import MinistersWifeSC from "../../components/ShowCards/MinistersWifeSC";
 
 import NunsenseSCRemount from "../../components/ShowCards/NunsenseSCRemount";
 import FunHomeSC from "../../components/ShowCards/FunHomeSC";
+import MeanGirlsSC from "../../components/ShowCards/MeanGirlsSC";
 
 const PastShows = () => {
   return (
     <React.Fragment>
       <section className="event py-5 p-3 px-md-5 " id="events">
+        <MeanGirlsSC />
         <FunHomeSC />
         <NunsenseSCRemount />
         <MinistersWifeSC />
