@@ -46,7 +46,7 @@ const SupportCorporate = () => {
                                 Opportunities to entertain include complimentary tickets, the opportunity to host private
                                 events, and invitations to exclusive SAPAC events and celebrations.
           </p>
-                            <p>Please contact info.sapac@gmail.com or call 520-261-0915 to partner with us.</p>
+                            <p>Please contact info.sapac@gmail.com or call <a href="tel:+5202610915">520-261-0915</a>  to partner with us.</p>
 
                         </div>
                     </div>

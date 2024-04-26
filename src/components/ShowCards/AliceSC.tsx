@@ -30,7 +30,7 @@ const AliceSC = () => (
       "SUN, JAN 28th, 5:00pm Pre-Show Tea Party, Performance at 6:00pm ",
     ]}
   >
-    <div className="py-1" id="meangirls" />
+    <div className="py-1" id="aliceByHeart" />
 
     <Link to="/tickets" className="btn btn-info btn-lg">
       Buy Tickets

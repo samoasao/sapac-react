@@ -15,6 +15,7 @@ import MinistersWifeSC from "../../components/ShowCards/MinistersWifeSC";
 import NunsenseSCRemount from "../../components/ShowCards/NunsenseSCRemount";
 import FunHomeSC from "../../components/ShowCards/FunHomeSC";
 import MeanGirlsSC from "../../components/ShowCards/MeanGirlsSC";
+import NtNSC from "../../components/ShowCards/NtNSC";
 
 const PastShows = () => {
   return (
@@ -24,6 +25,7 @@ const PastShows = () => {
         <FunHomeSC />
         <NunsenseSCRemount />
         <MinistersWifeSC />
+        <NtNSC />
         <PlaidTidingsSC />
         <NunsenseSC />
         <PlaidSC />
