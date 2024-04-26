@@ -16,11 +16,13 @@ import NunsenseSCRemount from "../../components/ShowCards/NunsenseSCRemount";
 import FunHomeSC from "../../components/ShowCards/FunHomeSC";
 import MeanGirlsSC from "../../components/ShowCards/MeanGirlsSC";
 import NtNSC from "../../components/ShowCards/NtNSC";
+import AliceSC from "../../components/ShowCards/AliceSC";
 
 const PastShows = () => {
   return (
     <React.Fragment>
       <section className="event py-5 p-3 px-md-5 " id="events">
+        <AliceSC />
         <MeanGirlsSC />
         <FunHomeSC />
         <NunsenseSCRemount />

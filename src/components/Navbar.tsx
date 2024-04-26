@@ -14,7 +14,7 @@ const links = [
     dropdowns: [
       [
         {
-          title: "Alice By Heart",
+          title: "Gutenberg! The Musical!",
           url: "/#events",
         },
         {

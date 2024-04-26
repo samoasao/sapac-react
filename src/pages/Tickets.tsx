@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import aliceLogo from "../images/promos/AliceByHeart.jpg";
+import gutenLogo from "../images/promos/gutenbergGMH.jpeg";
 
 import TicketButton from "../components/TicketButton";
 import { Link } from "react-router-dom";
@@ -16,21 +16,23 @@ const Tickets = () => {
                 <div className="card">
                   <img
                     className="card-img-top m"
-                    src={aliceLogo}
+                    src={gutenLogo}
                     alt="Card cap"
                   />
                   <div className="card-body">
                     <div className="card-text pb-2">
                       <p>
-                        3330 E Speedway Blvd. (Formerly Bookman's)
+                        Gaslight Music Hall of Oro Valley
                         <br />
-                        Tucson, AZ 85716
+                        13005 N Oracle Rd #165
+                        <br />
+                        Tucson, AZ 85739
                       </p>
-                      <p>Jan 19-28 2024</p>
+                      <p>July 11th, 2024</p>
                     </div>
                     <TicketButton
                       text="Purchase Tickets"
-                      ticketURL="https://www.tix.com/ticket-sales/SAPAC/6126"
+                      ticketURL="https://gaslightmusichall.csstix.com/event-details.php?e=756"
                     ></TicketButton>
                     <br />
 
